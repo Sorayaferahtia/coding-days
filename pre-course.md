@@ -10,7 +10,7 @@ Petit apercu du menu, vous devrez installer:
 - Heroku (The company that will host our website for us)
 - Un éditeur de texte [Atom](https://atom.io/ "Atom.io") pour MAC et [NotePad ++](https://notepad-plus-plus.org/fr/ "NotePad ++")
 
-Ceci est une lsite non-exaustive de ce dont vous aurez besoin pour developper, mais ca suffit amplement pour le Week End Coding Days!
+Ceci est une lsite non-exaustive de ce dont vous aurez besoin pour développer, mais ca suffit amplement pour le Week End Coding Days!
 
 > Si vous cherchez votre teminal: Ouvrez la barre de recherche MAC Spotlight, et recherchez "Terminal.app".
 Ou encore allez dans votre dossier /Applications puis /Utilitaires et choississez Terminal.app
