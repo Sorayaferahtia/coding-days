@@ -1,4 +1,4 @@
-Challenge 1 - Structure your app
+Challenge 1 - Planifions notre application!
 ================
 
 A ce jour, vous êtes censé savoir :
@@ -30,7 +30,7 @@ Voilà un exemple, faites au plus simple, il est censé vous aider.
 ![mockup image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/mockup%20example.gif)
 
 ### Section 2: Hello World ! (20 min)
-Commençon par recréer simplement la page représenté ci-dessus.
+Commençons par recréer simplement la page représenté ci-dessus.
 
 ![hello world image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/Hello%20world.png)
 
