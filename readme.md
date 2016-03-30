@@ -1,41 +1,37 @@
-THIS ARTICLE IS UNDER CONSTRUCTION
-
-Please note, as with all Makers Academy materials, there may be subtle errors in the following materials. Please try to approach those as challenges on which to polish your debugging skills - pull requests always welcome.
-
-Taster 2.0
-================
-Taster 2.0 is a new version of [Taster v1](https://github.com/makersacademy/Taster/blob/master/post.md "Taster v1")
-The version 2.0 is a bit longer and will be run during a full week end course.
-
-
-Learning Objectives
+Coding Days
 ================
 
-1. Make the difference between
+[Coding Days](http://www.coding-days.com "Coding Days") est un cours pour débutant afin d'introduire n'importe à l'univers du web.
+
+
+Objectifs d'apprentissage
+================
+
+1. Faire la différence entre
   - HTML
   - CSS
   - JS
   - OOP
 
 2. Introduction
+  - Methodes Agiles
   - HTML
   - CSS
   - JS
   - Responsive Web-Design
-  - Agile Methodology
 
-3. Knowledges about
-  - Web server
-  - Domain name
-  - Hostings
+3. Connaissance sur
+  - Fonctionnement simplifié d'un serveur
+  - Les différentes facons de créer un site (From scratch, CMS, MVC, etc)
+  - Nom de domaine
+  - Hébergement Web
   - Framework
   - Libraries
-  - Good practices
-  - The different ays to create a website
+  - Bonne et mauvaise pratique
 
-You will end up by having a great overview and answers on:
-  - How the web is working ?
-  - What are the different possibilities ?
+Vous finirez le week end en ayant une bonne idée de:
+  - Comment le web s'organise?
+  - Quelles sont les differentes facon de faire pour avoir un site ou une appli?
   - How everything is related and work together ?
 
 ###You will end up with your first website !!!
