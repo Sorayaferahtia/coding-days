@@ -4,7 +4,7 @@ Challenge 1 - Structure your app
 By now you should understand:
   - What HTML is
   - How to play with it
-
+je fou le bordel
 Look what we can build today !
 
 ![hello world image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/Challenges/Challenge_2/assets/images/Challenge%202.png)

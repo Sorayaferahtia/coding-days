@@ -49,7 +49,7 @@ We can't stress this enough. Copy and Paste is the DEVIL!! Even though at times 
 
 Let's start !
 ================
-Si vous avez déjà fini avec le [Pre course](https://github.com/makersacademy/taster2.0/blob/master/pre-course.md "pre course"), prenez le premier challenge !
+Si vous avez déjà fini avec le [Pre course](https://github.com/Coding-Days/coding-days/blob/master/pre-course.md "pre course"), prenez le premier challenge !
 
 - [Challenge 1](https://github.com/makersacademy/taster2.0/blob/master/challenge_1.md "Challenge 1")
 - [Challenge 2](https://github.com/makersacademy/taster2.0/blob/master/challenge_2.md "Challenge 2")

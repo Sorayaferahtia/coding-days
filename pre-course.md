@@ -1,25 +1,29 @@
 Pre course
 ================
 
-Avant d'écrire sa première ligne de code, il vous faudra installer pas mal de dépendances!
+Avant d'écrire sa première ligne de code, il vous faudra installer pas mal de petits logiciel!
+
 Petit apercu du menu, vous devrez installer:
 
-- Git (For version control, team work, remote, etc)
-- Github (To have a visual platform of git and much much more)
-- Ruby (Our OOP language)
-- Heroku (The company that will host our website for us)
-- Un éditeur de texte [Atom](https://atom.io/ "Atom.io") pour MAC et [NotePad ++](https://notepad-plus-plus.org/fr/ "NotePad ++")
+- Git - Outil de collaboration et de versionning
+- Github - Représentation visuelle de l'outil de git
+- Ruby - Notre langage de predilection
+- Heroku - L'entreprise qui hébergera votre application à la fin du Week End.
+- Un éditeur de texte [Atom](https://atom.io/ "Atom.io") pour MAC et [NotePad ++](https://notepad-plus-plus.org/fr/ "NotePad ++") pour WINDOWS
 
-Ceci est une lsite non-exaustive de ce dont vous aurez besoin pour développer, mais ca suffit amplement pour le Week End Coding Days!
+Ceci est une liste non-exaustive de ce dont vous aurez besoin pour développer, mais cela suffit amplement pour le Week End Coding Days!
 
 > Si vous cherchez votre teminal: Ouvrez la barre de recherche MAC Spotlight, et recherchez "Terminal.app".
 Ou encore allez dans votre dossier /Applications puis /Utilitaires et choississez Terminal.app
+
+![terminal image](http://apple.blogovlow.com/files/2012/02/Terminal.png)
+
 
 ####On MAC
 1- Créer un compte sur [Github](https://github.com/join "Github")                                            
 2- Créer un compte sur [Heroku](https://signup.heroku.com/ "Heroku")                                                   
 3- Suivez les étapes d'installation sur: [Prepare to code](http://preparetocode.io "prepare to code")
-  - Site que nous vous avons preparé avec &#9829; :)                                       
+  - Site que nous vous avons preparé avec &#9829;                                       
 4- Une fois que tout est installé, redémarrez votre ordinateur                                                           
 5- Ouvrez de nouveau votre terminal et tapez les commandes suivantes                                                                                                                                     
 >Si vous cherchez votre teminal: Ouvrez la barre de recherche MAC Spotlight, et recherchez "Terminal.app".
