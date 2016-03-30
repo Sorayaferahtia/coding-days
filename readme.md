@@ -1,19 +1,19 @@
 Coding Days
 ================
 
-[Coding Days](http://www.coding-days.com "Coding Days") est un cours pour débutant afin d'introduire n'importe à l'univers du web.
+[Coding Days](http://www.coding-days.com "Coding Days") est un cours pour débutant qui a pour but de vous donner une bonne image du web.
 
 
 Objectifs d'apprentissage
 ================
 
-1. Faire la différence entre
+1. Faire la différence entre les langages
   - HTML
   - CSS
   - JS
   - OOP
 
-2. Introduction
+2. Introduction aux
   - Methodes Agiles
   - HTML
   - CSS
@@ -27,40 +27,29 @@ Objectifs d'apprentissage
   - Hébergement Web
   - Framework
   - Libraries
-  - Bonne et mauvaise pratique
+  - Bonnes et mauvaises pratiques
 
 Vous finirez le week end en ayant une bonne idée de:
   - Comment le web s'organise?
-  - Quelles sont les differentes facon de faire pour avoir un site ou une appli?
-  - How everything is related and work together ?
+  - Quelles sont les différentes façon de faire pour créer son site ou son appli?
+  - Comment est-ce que tout est lié?
 
-###You will end up with your first website !!!
+###Vous finirez le week end avec votre propre site web !!!
 
-Notices
+Bonnes pratiques
 ================
 
-###Good Practice
-DO NOT COPY PASTE !!!
-If you do so, you will never really memorized all the tags and how they are working together !
+Ne jamais faire copier/coller!!!
+Si vous commencez à copier/coller vous ne vous rappellerez jamais de toutes les balises, methodes, syntaxe, etc
 
-As Evgeny wrote in Taster v1:
+Comme Evegeny, mon coding mentor l'a si bien dit:
 >You're strongly encouraged to type in all code instead of copy-pasting it. This will really help your understanding of how everything works.
 We can't stress this enough. Copy and Paste is the DEVIL!! Even though at times you will be copying chunks of code, the simple process of typing it yourself will help you learn. Trust us. You can't cut corners.
 
-###Organisation
-We advise you to start a MakersAcademy directory somewhere in your computer.
-To keep all your work organised use this structure:
-- makersacademy
-  - Taster
-    - HTML Challenge
-  - Pre-course
-  - week 1
-  - week 2
-  - ...
 
 Let's start !
 ================
-If you are already done with the [Pre course](https://github.com/makersacademy/taster2.0/blob/master/pre-course.md "pre course"), take the first challenge !
+Si vous avez déjà fini avec le [Pre course](https://github.com/Coding-Days/coding-days/blob/master/pre-course.md "pre course"), prenez le premier challenge !
 
 - [Challenge 1](https://github.com/makersacademy/taster2.0/blob/master/challenge_1.md "Challenge 1")
 - [Challenge 2](https://github.com/makersacademy/taster2.0/blob/master/challenge_2.md "Challenge 2")

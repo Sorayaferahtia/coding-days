@@ -1,30 +1,37 @@
 Pre course
 ================
 
-Before writing your first line of code, you need to install many many things.
-Let's sum them up quickly:
+Avant d'écrire sa première ligne de code, il vous faudra installer pas mal de petits logiciel!
 
-- Git (For version control, team work, remote, etc)
-- Github (To have a visual platform of git and much much more)
-- Ruby (Our OOP language)
-- Heroku (The company that will host our website for us)
-- A text editor ([Atom](https://atom.io/ "Atom.io") or [Sublime Text  3](https://www.sublimetext.com/3 "Sublime text 3"))
+Petit apercu du menu, vous devrez installer:
 
-This is definitly not an exhaustive list, but it will be enough for the Taster weekend
+- Git - Outil de collaboration et de versionning
+- Github - Représentation visuelle de l'outil de git
+- Ruby - Notre langage de predilection
+- Heroku - L'entreprise qui hébergera votre application à la fin du Week End.
+- Un éditeur de texte [Atom](https://atom.io/ "Atom.io") pour MAC et [NotePad ++](https://notepad-plus-plus.org/fr/ "NotePad ++") pour WINDOWS
 
-> If you are looking for your terminal, open spotlight and look for Terminal.app or you can direclty find it in your applications folder
+Ceci est une liste non-exaustive de ce dont vous aurez besoin pour développer, mais cela suffit amplement pour le Week End Coding Days!
+
+> Si vous cherchez votre teminal: Ouvrez la barre de recherche MAC Spotlight, et recherchez "Terminal.app".
+Ou encore allez dans votre dossier /Applications puis /Utilitaires et choississez Terminal.app
+
+![terminal image](http://apple.blogovlow.com/files/2012/02/Terminal.png)
+
 
 ####On MAC
-1- Create an account on [Github](https://github.com/join "Github")                                            
-2- Create an account on [Heroku](https://signup.heroku.com/ "Heroku")                                                   
-3- Follow the mac path on [Prepare to code](http://preparetocode.io "prepare to code")                                 
-4- Once you are done with everything, restart your computer                                                            
-5- Open your terminal and run:                                                                                                                                      
->You can find your terminal throw "spotlight" or in applications > Utilities > Terminal.app
+1- Créer un compte sur [Github](https://github.com/join "Github")                                            
+2- Créer un compte sur [Heroku](https://signup.heroku.com/ "Heroku")                                                   
+3- Suivez les étapes d'installation sur: [Prepare to code](http://preparetocode.io "prepare to code")
+  - Site que nous vous avons preparé avec &#9829;                                       
+4- Une fois que tout est installé, redémarrez votre ordinateur                                                           
+5- Ouvrez de nouveau votre terminal et tapez les commandes suivantes                                                                                                                                     
+>Si vous cherchez votre teminal: Ouvrez la barre de recherche MAC Spotlight, et recherchez "Terminal.app".
+Ou encore allez dans votre dossier /Applications puis /Utilitaires et choississez Terminal.app
 
->The " $ " sign is the line you need to write (don't write it), the other lines are the terminal answers
+>Le signe " $ " est une indication pour définir une ligne à taper. Vous ne devez donc pas le taper, c'est simplement une indication pour vous. Les autres lignes sont les réponses de votre terminal.
 
->You will never see the bullet points while you are typing your password in the terminal.
+>Lorsque vous tapez votre mot de passe dans le Terminal rien ne se passe et c'est normal. tapez le quand meme et faites entré.
 
 ```bash
 $ heroku login
@@ -41,7 +48,7 @@ machine git.heroku.com
   password c4cd94da15ea0544802c2cfd5ec4ead324327430
 ```
 
-[Follow this link to set up Git on your computer:](https://help.github.com/articles/set-up-git/ "set up git")
+[Suivez desormais ce lien pour parametrer Git:](https://help.github.com/articles/set-up-git/ "set up git")
 
 
-**You are done, wait the weekend to start the challenges**
+**C'est bon! Vous êtes prêt pour le weekend!**
