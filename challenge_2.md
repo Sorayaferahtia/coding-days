@@ -1,13 +1,13 @@
 Challenge 2 - Make it pretty !
 ================
 
-### Section 1: Make the bridge ! (15 min)
+### Section 1: Faire le pont ! (15 min)
 
-As you've seen during the lecture, we need to make some links between the HTML pages and the CSS pages.
+Comme nous l'avons vu pendant le cours, nous avons besoin de lier notre page HTML à notre page CSS.
 
-1. We need to tell the HTML page where is the stylesheet
+1. Nous devons donc dire à notre page HTML où trouver la page CSS
 
-If you want to be sure that the link is correctly done, put something like that in your css file:
+Afin d'être sur que le lien ait été correctement établie , vous pouvez écrire une declaration plutôt voyante comme celle-ci:
 
 ```css
 
@@ -17,18 +17,18 @@ body {
 
 ```
 
-> For the geekest, open the element inspector, go to the network tab, reload the page and see if it is loading the style.css page correctly.
+> Pour les plus geek, ouvrez l'inspecteur d'élément, allex sur l'onglet réseau, recharger la page, et verifiez que le fichier style.css charge.
+
 
 ### Section 2: Create the blocks ! (1h30)
 
->Write meaningful "classes" and "IDs" in order to let anybody understanding what you are styling.
-Do not write classes like:
+> Lorsque vous écrivez vos "class" et "Id", n'écrivez pas:
   .x or .y, etc
-Prefer:
+Préférez:
   .menu .menu__ul .menu__li
 
-1. Let's start by the menu, It needs to be:
-  - On the top, right
+1. Commencer par le haut de votre site et descendez progressivement
+  - Réalisez dans un premier temps le header
   - Needs to be a block that push other elements underneath
   - It has the "monospace" font
   - The link (make it open in a new tab with an attribute)
