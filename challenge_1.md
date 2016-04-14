@@ -18,12 +18,13 @@ Voilà ce qu'on pourra créer dés aujourd'hui:
 
 La première chose à faire quand on code, c'est de ne pas coder.
 
-1. Prenez de quoi faire un croquis, pour créer quelques chose comme ceci:
+>Soyez d'accord avec votre binome sur tous les points ci-dessous:
+
+1. Prenez de quoi faire un croquis pour créer quelques chose comme ceci:
 
 ![mockup image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/mockup%20example.gif)
 
-2. Mettez vous d'accord avec votre binôme
-3. Trouver votre contenu [texte](http://fr.lipsum.com/feed/html, "lorem ipsum") et [images](https://unsplash.com/, "Unsplash").
-4. Mettez vous d'accord avec votre binôme
-5. Dans chacun des blocs, indiquez son type (article, section, blockquotes, etc)
-6. Mettez vous d'accord avec votre binôme
+2. Trouver votre contenu [texte](http://fr.lipsum.com/feed/html, "lorem ipsum") et [images](https://unsplash.com/, "Unsplash").
+3. Dans chacun des blocs, indiquez son type (article, section, blockquotes, etc)
+
+Maintenant vous savez ce que vous allez faire ce week end! 
