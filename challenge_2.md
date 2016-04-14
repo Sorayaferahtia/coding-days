@@ -5,9 +5,11 @@ Challenge 2 - Make it pretty !
 
 Comme nous l'avons vu pendant le cours, nous avons besoin de lier notre page HTML à notre page CSS.
 
-1. Nous devons donc dire à notre page HTML où trouver la page CSS
+1. Nous devons donc dire à notre page HTML où trouver la feuille de style CSS.
 
-Afin d'être sur que le lien ait été correctement établie , vous pouvez écrire une déclaration plutôt voyante comme celle-ci:
+> Rappelez vous... Où est ce que l'on la localisation des metadonées?
+
+2. On verifie notre travail! Afin d'être sur que le lien ait été correctement établie, vous pouvez écrire une déclaration plutôt voyante comme celle-ci:
 
 ```css
 
@@ -43,27 +45,34 @@ C'est pourquoi nous vous avons demander de coder votre structure HTML avant, afi
   - Ceci vous aidera à placer de facon automatique les éléments en dessous les uns par rapport aux autres.
 
 3. Toujours sur le header, vous pouvez opter pour plusieurs options
-- Quelle est la difference entre ces deux exemples!?
+
+Voici deux header lègerement diffèrents:
 
 **Sans container**
 ![header no container](https://raw.githubusercontent.com/Coding-Days/coding-days/master/assets/images/CSS%20Challenge/header__noContainer.png)
 **Avec container**
 ![header container](https://raw.githubusercontent.com/Coding-Days/coding-days/master/assets/images/CSS%20Challenge/header__container.png)
 
-Imaginez maintenant votre site sur plusieurs support...
+Imaginez votre site sur plusieurs support...
 
 Sur votre ordinateur portable 13 ou 15 pouces, pas vraiment de soucis à avoir un header qui prend toute la longueur..
 
 Mais sur un 24, 27 pouces ou une télé?
 
-  - Si vous n'avez pas de container votre header va prendre toute la longueur (du block), donc de votre page, concrètement, la longueur de l'écran sur lequel il est.
+  - Si vous n'avez pas de container votre header, il va prendre toute la longueur (du block), donc la longueur de l'écran sur lequel il est.
 
-  - Si vous avez un container qui a soit une longueur en px, soit une longueur en %, voir autres. Vous allez pouvoir encapsuler votre contenu qui sera alors positionner relativement par rapport à celui-ci.
-  En gros il va prendre sa taille quoi...
+  - Si vous avez un container qui a:
+    - Soit une longueur en px,
+    - Soit une longueur en %,
+    - Voir une autre unité.
+
+    Vous allez pouvoir encapsuler votre contenu qui sera alors positionner relativement par rapport à celui-ci.
+
+  Concrètement, il va prendre sa taille quoi...
     - Mon container width: 80%;
       - Mon header en display: block;
 
-    - Si vous vous demandez pourquoi est-ce qu'il est positioné à gauche et pas au milieu comme sur la photo, je suis sur que vous allez trouver comment le centrer!
+    - Si vous vous demandez pourquoi est-ce qu'il est positioné à gauche et pas au milieu comme sur la photo, je suis certain que vous allez trouver comment le centrer!
 
 
 
