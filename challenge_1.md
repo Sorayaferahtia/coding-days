@@ -1,11 +1,19 @@
 Challenge 1 - Planifions notre application!
 ================
 
+<<<<<<< HEAD
 A ce jour, vous êtes censé savoir :
   - Ce qu'est le HTML
   - Et comment le manipuler
 
 Voilà ce qu'on sera ammené à créer aujourd'hui
+=======
+Desormais, vous êtes censé savoir :
+  - Ce qu'est le HTML, CSS et JS
+  - Ce que sont dans les grandes lignes, les methodes agiles
+
+Voilà ce qu'on pourra créer dés aujourd'hui:
+>>>>>>> 8bd6a00aca942fd9da0478ad15a082899ed1102d
 
 ![hello world image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/Challenges/Challenge_2/assets/images/Challenge%202.png)
 
@@ -14,6 +22,7 @@ Voilà ce qu'on sera ammené à créer aujourd'hui
 >Bien sûr, ce n'est qu'un exemple, vous êtes libre de créer la page que vous voulez.
 
 
+<<<<<<< HEAD
 ### Section 1: On commence doucement (30min)
 
 La première chose à faire quand on code, c'est de ne pas coder.
@@ -80,3 +89,18 @@ Et si on rendait notre page un peu plus sympa !?
 
 
 [Prochain challenge, Make it Pretty !](https://github.com/makersacademy/taster2.0/blob/master/challenge_2.md "Challenge 2")
+=======
+### Section 1: On commence doucement (45min)
+
+La première chose à faire quand on code, c'est de ne pas coder.
+
+1. Prenez de quoi faire un croquis, pour créer quelques chose comme ceci:
+
+![mockup image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/mockup%20example.gif)
+
+2. Mettez vous d'accord avec votre binôme
+3. Trouver votre contenu [texte](http://fr.lipsum.com/feed/html, "lorem ipsum") et [images](https://unsplash.com/, "Unsplash").
+4. Mettez vous d'accord avec votre binôme
+5. Dans chacun des blocs, indiquez son type (article, section, blockquotes, etc)
+6. Mettez vous d'accord avec votre binôme
+>>>>>>> 8bd6a00aca942fd9da0478ad15a082899ed1102d
