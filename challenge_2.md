@@ -7,7 +7,7 @@ Comme nous l'avons vu pendant le cours, nous avons besoin de lier notre page HTM
 
 1. Nous devons donc dire à notre page HTML où trouver la page CSS
 
-Afin d'être sur que le lien ait été correctement établie , vous pouvez écrire une declaration plutôt voyante comme celle-ci:
+Afin d'être sur que le lien ait été correctement établie , vous pouvez écrire une déclaration plutôt voyante comme celle-ci:
 
 ```css
 
@@ -17,36 +17,34 @@ body {
 
 ```
 
-> Pour les plus geek, ouvrez l'inspecteur d'élément, allex sur l'onglet réseau, recharger la page, et verifiez que le fichier style.css charge.
+> Pour les plus geek, ouvrez l'inspecteur d'élément, allez sur l'onglet réseau, recharger la page, et verifiez que le fichier style.css charge.
 
 
-### Section 2: Create the blocks ! (1h30)
+### Section 2: Créer les blocs ! (1h30)
 
 > Lorsque vous écrivez vos "class" et "Id", n'écrivez pas:
   .x or .y, etc
 Préférez:
   .menu .menu__ul .menu__li
 
-1. Commencer par le haut de votre site et descendez progressivement
-  - Réalisez dans un premier temps le header
-  - Needs to be a block that push other elements underneath
-  - It has the "monospace" font
-  - The link (make it open in a new tab with an attribute)
+1. Commencer par le haut de votre site puis descendez progressivement
+  - Réalisez dans un premier temps
+    - Le header
+    - Le menu
+    - etc
 
-2. Go on with the article:
-  - Is relatively positioned after the menu
-  - The width is about 80vw (learn about vw and vh units)
-  - In order to put the picture on the right and the text on the left, you can float: left; the text.
+2. Essayez de positionner vos éléments de façons intelligente.
+  - Votre header peut être un bloc, relatif au body, avec une certaine hauteur.
+  - Ceci vous aidera à placer de facon automatique les éléments
 
-3. The footer
-  - Can be in position: fixed;
-  - the text is centered by default
+>Ceci est un exemple, il existe un nombre quasi illimité de solution pour créer votre page. Vous pouvez essayer de le faire de cette façon car elle est assez classique.
 
->This is exhaustive, you can do whatever you want, but try to think in this way.
+([Prenez cette pillule :pill:](https://github.com/makersacademy/taster2.0/blob/master/assets/pills/css.md "Taster v1") si vous avez des difficultés)
 
-([take this pill :pill:](https://github.com/makersacademy/taster2.0/blob/master/assets/pills/css.md "Taster v1") if you have some trouble)
+Pour ne pas perdre la tête avec le CSS, vous devez faire attention de ne pas cibler directement les éléments par leur balise mais par une Classe (.x) ou une ID (#x).
 
-To not loose your mind with CSS, you need to be careful and not write on top on the other rules.
-That's why, we recommend you to code the structure of your page first and after to make it pretty.
+C'est pourquoi nous vous avons demander de coder votre structure HTML avant, afin de donner des nom coherent à vos differents blocs.
 
-[Next challenge, be Agile!](https://github.com/makersacademy/taster2.0/blob/master/challenge_3.md "Challenge 3")
+>Le ptit +: Commentez votre code!
+
+[Challenge suivant, be Responsive!](https://github.com/makersacademy/taster2.0/blob/master/challenge_3.md "Challenge 3")

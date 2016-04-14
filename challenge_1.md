@@ -67,7 +67,7 @@ Maintenant on va traduire ce qu'il y a sur votre feuille, dans votre IDE
 1. Retournez sur votre IDE, et supprimez le contenu de la balise "body"
 2. Maintenant, codez votre mockup
 
-> **Bonnes pratiques:**1
+> **Bonnes pratiques:**
 Indentez votre code
 N'oubliez pas les attributs
 
@@ -76,7 +76,7 @@ Vous ne vous rappelez pas de toutes les balises ? Ne vous inquietez pas, on y a 
 
 Hmm... C'est pas très sexy n'est ce pas ?
 
-Et si on rendait notre page un peu plus sexy !?
+Et si on rendait notre page un peu plus sympa !?
 
 
 [Prochain challenge, Make it Pretty !](https://github.com/makersacademy/taster2.0/blob/master/challenge_2.md "Challenge 2")

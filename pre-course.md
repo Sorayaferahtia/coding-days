@@ -19,7 +19,7 @@ Ou encore allez dans votre dossier /Applications puis /Utilitaires et choississe
 ![terminal image](http://apple.blogovlow.com/files/2012/02/Terminal.png)
 
 
-####On MAC
+####Sur MAC
 1- Créer un compte sur [Github](https://github.com/join "Github")                                            
 2- Créer un compte sur [Heroku](https://signup.heroku.com/ "Heroku")                                                   
 3- Suivez les étapes d'installation sur: [Prepare to code](http://preparetocode.io "prepare to code")
