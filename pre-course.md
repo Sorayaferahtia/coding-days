@@ -33,11 +33,15 @@ Ou encore allez dans votre dossier /Applications puis /Utilitaires et choississe
 
 >Lorsque vous tapez votre mot de passe dans le Terminal rien ne se passe et c'est normal. tapez le quand meme et faites entré.
 
+1. Lier votre compte Heroku "à votre ordinateur"
 ```bash
 $ heroku login
 Enter your Heroku credentials.
 Email: me@example.com
 Password:
+```
+Maintenant on verifie qu'on est bien connecté
+```bash
 
 $ cd && cat .netrc
 machine api.heroku.com
@@ -47,6 +51,17 @@ machine git.heroku.com
   login me@example.com
   password c4cd94da15ea0544802c2cfd5ec4ead324327430
 ```
+2. Lier votre compte GitHUb "à votre ordinateur"
+```bash
+$ git config --global user.name "VOTRE USERNAME SUR GITHUB"
+
+$ git config --global user.email "VOTRE ADRESSE MAIL DU COMPTE GITHUB"
+$
+```
+Maintenant on verifie qu'on est bien connecté
+```bash
+```
+
 
 [Suivez desormais ce lien pour parametrer Git:](https://help.github.com/articles/set-up-git/ "set up git")
 
