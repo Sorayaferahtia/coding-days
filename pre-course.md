@@ -119,4 +119,3 @@ machine git.heroku.com
 
 
 **C'est bon! Vous êtes prêt pour le weekend!**
->>>>>>> 6d18bb8501513f457561bba2dc502de5c7524e89
