@@ -7,7 +7,7 @@ Comme nous l'avons vu pendant le cours, nous avons besoin de lier notre page HTM
 
 1. Nous devons donc dire à notre page HTML où trouver la feuille de style CSS.
 
-> Rappelez vous... Où est ce que l'on la localisation des metadonées?
+> Rappelez vous... Où est ce que l'on indique la localisation d'un ou plusieurs profils de métadonnées?
 
 2. On verifie notre travail! Afin d'être sur que le lien ait été correctement établie, vous pouvez écrire une déclaration plutôt voyante comme celle-ci:
 
@@ -29,7 +29,7 @@ body {
 Préférez:
   .menu .menu__ul .menu__li
 
-C'est pourquoi nous vous avons demander de coder votre structure HTML avant, afin de donner des nom coherent à vos differents blocs.
+C'est pourquoi nous vous avons demander de dessiner, puis coder votre structure HTML avant, dans le but de donner des noms cohérents aux différents class et ID de vos blocs.
 
 >Le ptit +: Commentez et Indentez votre code!
 
