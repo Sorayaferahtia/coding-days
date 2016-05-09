@@ -1,4 +1,4 @@
-Challenge 2 - Make it pretty !
+Challenge 2 - Les fondations !
 ================
 
 ### Section 2: Hello World ! (20 min)
@@ -76,4 +76,4 @@ Hmm... C'est pas très sexy n'est ce pas ?
 Et si on rendait notre page un peu plus sympa !?
 
 
-[Prochain challenge, Make it Pretty !](https://github.com/makersacademy/taster2.0/blob/master/challenge_2.md "Challenge 2")
+[Prochain challenge, Make it Pretty !](https://github.com/makersacademy/taster2.0/blob/master/challenge_3.md "Challenge 3")

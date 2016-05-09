@@ -1,3 +1,5 @@
+Challenge 4 - Be responsive !
+================
 
 Ok so now that you've got all the vision about the agile methodology, let's make it happen !
 

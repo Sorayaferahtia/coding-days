@@ -1,7 +1,5 @@
-Challenge 3 - Be agile !
+Challenge 3 - Make it pretty !
 ================
-
-
 
 ### Section 1: Faire le pont ! (15 min)
 

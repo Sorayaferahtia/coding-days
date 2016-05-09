@@ -1,4 +1,4 @@
-Challenge 1 - Planifions notre application!
+Challenge 1 - Be agile !
 ================
 
 Désormais, vous êtes censé savoir :
@@ -29,3 +29,5 @@ La première chose à faire quand on code, c'est de ne pas coder.
 
 Voilà un exemple, faites au plus simple, il est censé vous aider, ce n'est pas du tout obligatoire de reproduire le même.
 ![mockup image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/mockup%20example.gif)
+
+[Prochain challenge, Les fondations !](https://github.com/makersacademy/taster2.0/blob/master/challenge_2.md "Challenge 2")
