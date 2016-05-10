@@ -1,50 +1,47 @@
-THIS ARTICLE IS UNDER CONSTRUCTION
-
-Please note, as with all Makers Academy materials, there may be subtle errors in the following materials. Please try to approach those as challenges on which to polish your debugging skills - pull requests always welcome.
-
 CSS Pill
 ================
 
-We strongly advise you to also take those quick pills:
-- [:pill: html](https://github.com/makersacademy/course/blob/master/pills/html.md "html")
-- [:pill: html5](https://github.com/makersacademy/course/blob/master/pills/html5.md "html5")
+Si vous n'êtes pas tout à fait à l'aise avec le langage HTML, nous vous conseillons d'aller sur cette page:
+- [:pill: html](https://github.com/Coding-Days/coding-days/blob/master/assets/pills/html.md "html")
 
-CSS Syntax
+CSS Syntaxe
 ================
 
+Tout d'abord, il y aura plusieurs mots de vocabulaire à intégrer pour que l'on parle tous la même langue :)
 There are few denomination to know:
 
-A **rule** is a consist of a selector and a block of declaration(s)
+Une **règle** est consitué d'un selecteur et d'un bloc avec une ou plusieurs déclarations
 
-A **selector** is the element you will target and style
+Un **selecteur** vous permettra de cibler un élément en particulier
 
-A **declaration** is a combination of property and value (it always end with a semi-colon)
+Une **déclaration** est une combinaison d'une propriété et d'une valeur (elle finie toujours par un ";")
 
-A **property** is behaviour of a declaration (background-color, width, etc)
+La **propriété** définira le comportement à modifier du selecteur de votre déclaration (background-color, width, etc)
 
-A **value** is how the behaviour of the declaration will act (background-color: blue, width: 500px;, etc)
+La **valeur** définis le comportement de la propriété (background-color: blue, width: 500px;, etc)
 
 
 ![css syntax image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/CSS%20Challenge/css_syntax.png)
 
-Element inspector
+L'inspecteur d'éléments
 ================
 
-I will let you discover this awesome tool, you can not develop a static website without it (or you will do it in twice the time)
+Je vous laisse decouvrir cette outil magique et indispensable!
 
 ![inspect element](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/CSS%20Challenge/inspect_element.png)
 
-**On the left :**
-the website
+**Sur la gauche:**
+Le site web en developpement
 
-**On the right :**
-the above part
-This is your DOM, refer to [this pill :pill:](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048 "css selectors") if you do not remember what is the DOM.                                                                                
-The thing is that you can pass on hover the DOM and it will highlight the part you are on on the left side of the screen (the website)
+**Sur la droite :**
+La partie supérieur:
+C'est votre DOM, réferez-vous à cette [this pill :pill:](https://la-cascade.io/quest-ce-que-le-dom/ "css selectors") Si vous ne savez plus exactement ce que c'est où si vous voulez plus de précision.                                                                                
+Un usage trés pratique de cet inspecteur sera le fait de pouvoir trouver le code correspondant à un élément très rapidement! Lorsque vous passer votre souris au dessus (on hover) le DOM, vous verrez les éléments sur le site changer de couleur.
 
-the below part
-This is your CSS toolbox, you can play with the declarations and see directly how it is displayed on the left part of your screen in order to be efficient, and understand more how things are reacting !
+La partie inférieur:
+C'est votre boite à outil CSS! Vous pouvez modifier votre site (à gauche) en temps réel et voir si votre code fonctionne comme vous le souhaitez!
 
+Vous avez enormement d'outils puissant et indispensable dans l'inspecteur d'élément, amusez-vous, posez-nous des questions, nous serons ravi de vous expliquer comment ça marche
 You have many many more tools in this inspect element, but we will not cover them here ! Play around you'll love it.
 
 Introduction and inheritance
