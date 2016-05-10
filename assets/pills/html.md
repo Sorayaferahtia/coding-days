@@ -1,40 +1,31 @@
-THIS ARTICLE IS UNDER CONSTRUCTION
-
-Please note, as with all Makers Academy materials, there may be subtle errors in the following materials. Please try to approach those as challenges on which to polish your debugging skills - pull requests always welcome.
-
 HTML Pill
 ================
-
-We strongly advise you to also take those quick pills:
-- [:pill: html](https://github.com/makersacademy/course/blob/master/pills/html.md "html")
-- [:pill: html5](https://github.com/makersacademy/course/blob/master/pills/html5.md "html5")
-
 
 ```html
 <!doctype html>
 <html>
 <head>
-  <title> Title of your website </title>
-  <style> Inline CSS, forget it </style>
-  <meta> Mainly for SEO </meta>
-  <link> In order to link stylesheets </link>
-  <script> In order to link or write JS </script>
+  <title> Titre de votre site web (visible entre autre dans l'onglet sur votre fenetre) </title>
+  <style> Inline CSS, vous pouvez oublier cette mauvaise pratique </style>
+  <meta> Principalement pour le SEO </meta>
+  <link> Afin de faire le pont avec votre feuille de style CSS </link>
+  <script> Afin de faire le pont avec votre fichier JS </script>
 </head>
 <body>
-  <header>Header of the current section/article</header>
-  <nav>Used for menu</nav>
-    <ul>Bullet point list (often used in <nav> tag in order to structure your menu)
-      <li>First bullet</li>
-      <li>Second bullet</li>
+  <header>Header du block (section/article/etc)</header>
+  <nav>Utilisé pour les menus</nav>
+    <ul>Liste à puces (souvent utilisé dans une <nav></nav> pour structurer votre menu)
+      <li>Premier point</li>
+      <li>Deuxième point</li>
       <li>…</li>
     </ul>
-  <article>If the content make sense on his own</article>
-  <section>If the content is related</section>
-  <h1>from h1 to h6, those are the titles (by importance)</h1>
-  <p>This is a paragraph</p>
-  <a href=“link”>title of the link</a> watch the different attributes
-  <img src=“link” alt=“description of the pic”>
-  <footer>Footer of the current section/article</footer>
+  <article>Si le contenu a du sens tout seul</article>
+  <section>Si le contenu est lié</section>
+  <h1>De h1 à h6 (par importance), ce sont les titres visible sur votre site.</h1>
+  <p>Un paragraphe</p>
+  <a href=“link”>texte du lien</a> regarder les differents attributs possibles.
+  <img src=“link” alt=“description de l\'image”>
+  <footer>Footer du block (section/article/etc)</footer>
 </body>
 </html>
 ```
