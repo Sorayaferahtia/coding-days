@@ -8,17 +8,16 @@ CSS Syntaxe
 ================
 
 Tout d'abord, il y aura plusieurs mots de vocabulaire à intégrer pour que l'on parle tous la même langue :)
-There are few denomination to know:
 
-Une **règle** est consitué d'un selecteur et d'un bloc avec une ou plusieurs déclarations
+Une **règle** est consituée d'un sélecteur et d'un bloc avec une ou plusieurs déclarations
 
-Un **selecteur** vous permettra de cibler un élément en particulier
+Un **sélecteur** vous permettra de cibler un élément en particulier
 
-Une **déclaration** est une combinaison d'une propriété et d'une valeur (elle finie toujours par un ";")
+Une **déclaration** est une combinaison d'une propriété et d'une valeur (elle finit toujours par un ";")
 
-La **propriété** définira le comportement à modifier du selecteur de votre déclaration (background-color, width, etc)
+La **propriété** définira le comportement à modifier du sélecteur de votre déclaration (background-color, width, etc)
 
-La **valeur** définis le comportement de la propriété (background-color: blue, width: 500px;, etc)
+La **valeur** définit le comportement de la propriété (background-color: blue;, width: 500px;, etc)
 
 
 ![css syntax image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/CSS%20Challenge/css_syntax.png)
@@ -26,30 +25,30 @@ La **valeur** définis le comportement de la propriété (background-color: blue
 L'inspecteur d'éléments
 ================
 
-Je vous laisse decouvrir cette outil magique et indispensable!
+Je vous laisse découvrir cet outil magique et indispensable!
 
 ![inspect element](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/CSS%20Challenge/inspect_element.png)
 
 **Sur la gauche:**
-Le site web en developpement
+Le site web en développement
 
 **Sur la droite :**
-La partie supérieur:
-C'est votre DOM, réferez-vous à cette [this pill :pill:](https://la-cascade.io/quest-ce-que-le-dom/ "css selectors") Si vous ne savez plus exactement ce que c'est où si vous voulez plus de précision.                                                                                
-Un usage trés pratique de cet inspecteur sera le fait de pouvoir trouver le code correspondant à un élément très rapidement! Lorsque vous passer votre souris au dessus (on hover) le DOM, vous verrez les éléments sur le site changer de couleur.
+La partie supérieure:
+C'est votre DOM, référez-vous à cette [pill :pill:](https://la-cascade.io/quest-ce-que-le-dom/ "css selectors") Si vous ne savez plus exactement ce que c'est où si vous voulez plus de précision.                                                                                
+Un usage très pratique de cet inspecteur sera le fait de pouvoir trouver le code correspondant à un élément très rapidement! Lorsque vous passer votre souris au-dessus (on hover) le DOM, vous verrez les éléments sur le site changer de couleur.
 
-La partie inférieur:
-C'est votre boite à outil CSS! Vous pouvez modifier votre site (à gauche) en temps réel et voir si votre code fonctionne comme vous le souhaitez!
+La partie inférieure:
+C'est votre boite à outils CSS ! Vous pouvez modifier votre site (à gauche) en temps réel et voir si votre code fonctionne comme vous le souhaitez!
 
-Vous avez enormement d'outils puissant et indispensable dans l'inspecteur d'élément, amusez-vous, posez-nous des questions, nous serons ravi de vous expliquer comment tout marche!
+Vous avez énormément d'outils puissants et indispensables dans l'inspecteur d'élément, amusez-vous, posez-nous des questions, nous serons ravis de vous expliquer comment tout marche !
 
 Introduction et principe d'héritage
 ================
 
 CSS est l'acronyme de Cascading Style Sheets, feuilles de style en cascade.
-L'appélation "cascade" est expliqué par le fait que:
+L'appellation "cascade" est expliquée par le fait que:
 1. Si une règle modifie un élément.
-2. Si une deuxiéme règle modifie un deuxième élément en dessous la premiére.
+2. Si une deuxième règle modifie un deuxième élément en dessous la première.
 3. Ce sera la deuxième règle qui fera effet.
 
 Un petit exemple:
@@ -86,7 +85,7 @@ La couleur du h1 (titre important) sera donc... BLEU!
 
 WTF?
 
-Qu'est ce qu'il s'est passé!? Le selecteur " > " permet de cibler l'élément descendant. On selectionnera donc les titre en dessous d'une div.
+Qu'est ce qu'il s'est passé !? Le sélecteur " > " permet de cibler l'élément descendant. On sélectionnera donc les titres en dessous d'une div.
 Exemple:
 ```html
 <div>
@@ -94,25 +93,25 @@ Exemple:
 </div>
 ```
 
-La couleur du titre est bleu car la règle est plus précise!
+La couleur du titre est bleue car la règle est plus précise!
 Plus une règle est précise, plus elle aura de l'importance face aux autres.
 
->**Rappel:** Si vous souhaitez mettre des règles de priorités dans votre code, vous pouvez:                                                
+>**Rappel :** Si vous souhaitez mettre des règles de priorités dans votre code, vous pouvez :                                                
 1) Mettre un élément en dessous un autre                                                                                
-2) Cibler plus précisement votre élément (bloc) avec un selecteur, qui peut être une suite de balise, de class, d'ID, etc. Explorez tout ça dans l'inspecteur, vous apprendrai by doing :).
+2) Cibler plus précisément votre élément (bloc) avec un sélecteur, qui peut être une suite de balises, de class, d'ID, etc. Explorez tout ça dans l'inspecteur, vous apprendrez by doing :).
 
 
-Nous avons donc introduit le principe d'héritage, nous allons desormais voir différents sélécteur possibles.
+Nous avons donc introduit le principe d'héritage, nous allons désormais voir différents sélécteurs possibles.
 
 CSS Selectors
 ================
 
-Nous venons d'introduire le selcteur " > ". Vous pourrez trouver une liste de 30 selecteur
-[ICI](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048 "css selectors"):
+Nous venons d'introduire le sélécteur " > ". Vous pourrez trouver une liste de 30 sélécteurs
+[ici](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048 "css selectors").
 
 Nous couvrirons les plus utilisés:
 
-####Le selecteur étoile " * ":
+####Le sélecteur étoile " * ":
 
 Celui-ci ciblera tous les éléments du DOM.
 
@@ -124,9 +123,9 @@ Celui-ci ciblera tous les éléments du DOM.
 
 ```
 
-Sauf si... une régle plus precise impact un ou plusieur éléments!
+Sauf si... une règle plus précise impacte un ou plusieurs éléments !
 
-####Le selecteur " balise ", ou " tag ":
+####Le sélecteur " balise ", ou " tag ":
 
 Pour cibler une balise spécifique, vous pouvez mentionner cette ou ces balises comme suit:
 
@@ -142,11 +141,11 @@ p {
 
 ```
 
-Tous les titres seront bleus, et les paragraphe auront une longueur de 700px.
+Tous les titres seront bleus, et les paragraphes auront une longueur de 700px.
 
-####Le selecteur de class " . ":
+####Le sélecteur de class " . ":
 
-Rapellez-vous, pendant le cours, nous avons vu ensemble comment faire le pont entre le HTML et le CSS.
+Rappelez-vous, pendant le cours, nous avons vu ensemble comment faire le pont entre le HTML et le CSS.
 
 Si vous avez ce code HTML:
 
@@ -173,9 +172,9 @@ ou
 
 ```
 
-####Le selecteur d'ID " # ":
+####Le sélecteur d'ID " # ":
 
-Cela marche exactement comme le selecteur de class:
+Cela marche exactement comme le sélecteur de class:
 
 ```html
 
@@ -184,7 +183,7 @@ Cela marche exactement comme le selecteur de class:
 </p>
 ```
 
-Vous pouvez désormais designer votre paragraphe (<p></p>) en ciblant son ID comme suit:
+Vous pouvez désormais désigner votre paragraphe (<p></p>) en ciblant son ID comme suit:
 
 ```css
 
@@ -201,20 +200,20 @@ or
 }
 
 ```
-Mais alors, qu'elle est la difference entre une ID et une classe?
+Mais alors, qu'elle est la différence entre une ID et une classe?
 
 Une ID ne peut être utilisée qu'une seule fois.
 Une classe peut être utilisée autant de fois que nécessaire!
 
 Imaginez votre site,
 
-Si vous souhaitez que tout vos titres soient en rouge et fassent 25px, vous pourrez utiliser une class que vous appliquerai à tout vos titre.
+Si vous souhaitez que tous vos titres soient en rouge et fassent 25px, vous pourrez utiliser une class que vous appliquerez à tous vos titres.
 
 Seulement, pour une question de design, vous souhaitez qu'un titre soit différent, vous pourrez alors utiliser une ID.
 
 ####Le sélecteur chevron " > ":
 
-Le chevron vous aidera à séléctionner l'élément descendant dans le DOM:
+Le chevron vous aidera à sélectionner l'élément descendant dans le DOM:
 
 ```css
 
@@ -223,7 +222,7 @@ div#container > ul {
 }
 
 ```
-Cette régle donnera une longueur de 600px à toutes les <ul></ul> (listes à puces) placées en dessous une div avec la class "container":
+Cette règle donnera une longueur de 600px à toutes les <ul></ul> (listes à puces) placées en dessous une div avec la class "container":
 
 
 ```html
@@ -242,11 +241,11 @@ Cette régle donnera une longueur de 600px à toutes les <ul></ul> (listes à pu
 </div>
 
 ```
-La seconde liste à puce <ul></ul> ne sera donc pas affectée.
+La seconde liste à puces <ul></ul> ne sera donc pas affectée.
 
 ####Le sélecteur plus " + ":
 
-Il ciblera seulement le premier élément aprés et pas à l'interieur:
+Il ciblera seulement le premier élément après et pas à l'intérieur:
 
 ```css
 
@@ -259,9 +258,9 @@ Seul le premier paragraphe après une div sera ciblé par cette règle.
 
 ####Le sélecteur virgule " , ":
 
-Celui-ci vous aidera à definir les mêmes règles pour plusieurs éléments.
+Celui-ci vous aidera à définir les mêmes règles pour plusieurs éléments.
 
-Par exemple si vous souhaitez que tous les input et les text-area de vos formulaire fassent la mêmes taille, vous pouvez faire ceci:
+Par exemple si vous souhaitez que tous les input et les textarea de vos formulaires fassent la même taille, vous pouvez faire ceci:
 
 ```css
 
@@ -271,22 +270,22 @@ input, textarea {
 
 ```
 
-####Combinez les!
+####Combinez-les!
 
 ```css
 div#form input.input, textarea, p > button {
   border: 6px solid red;
 }
 ```
-Cette régle va donner une bordure rouge de 6px à:
+Cette règle va donner une bordure rouge de 6px à:
 
-les input, les textarea et les bouton à l'intérieur d'un paragraphe si tous ces selecteur sont à l'intérieur d'une div qui a une id "form".
+Les input, les textarea et les boutons à l’intérieur d'un paragraphe si tous ces sélecteurs sont à l'intérieur d'une div qui a une id "form".
 
 
 Propriétés CSS
 ================
 
-**background-color:** couleur de fond du block séléctionné;
+**background-color:** couleur de fond du block sélectionné;
 
 ```css
 p.warning-notice {
@@ -329,7 +328,7 @@ body {
 ```
 
 
-**border:** bordure du block ciblé;
+**border:** bordures du block ciblé;
 
 ```css
 li.menu-item {
@@ -337,7 +336,7 @@ li.menu-item {
 }
 ```
 
-**width and height:** dimension du block séléctionné;
+**width and height:** dimension du block sélectionné;
 
 ```css
 .photo {
@@ -377,7 +376,7 @@ Voici le calcul:
 + 0px (left + right margin)
 = 350px
 
-Ou alors vous pouvez utiliser une simple declaration:
+Ou alors vous pouvez utiliser une simple déclaration:
 
 ```css
 div {
@@ -398,7 +397,7 @@ Voici le calcul:
 
 WTF?
 
-La box-sizing: border-box; déclaration prend en compte les bordure, et le padding lorsque vous donner une valeur à la width.
+La box-sizing: border-box; déclaration prend en compte les bordures, et le padding lorsque vous donner une valeur à la width.
 Le block mesure désormais 350px. Lorsque vous développez un site en entier, comportant des milliers de lignes, ça sera beaucoup plus facile pour vous de manipuler ce type de block!
 
 Le positionnement
@@ -406,8 +405,8 @@ Le positionnement
 
 Le positionnement est une des principales fonctions du CSS! Sans ça, notre page ne serait qu'une succession de block les uns après les autres.
 
->Un élément mis en display: block; prend par defaut la taille de la ligne en entier. Les autres éléments sont donc placés en dessous ou au dessus de celui-ci.
-Un élément placé en display:inline; laisse les autres éléments à gauche et/ou à droite de  celui-ci.
+>Un élément mis en display: block; prend par défaut la taille de la ligne en entier. Les autres éléments sont donc placés en dessous ou au-dessus de celui-ci.
+Un élément placé en display:inline; laisse les autres éléments à gauche et/ou à droite de celui-ci.
 
 Afin de positionner vos blocks vous pourrez donc attribuer plusieurs propriétés.
 
@@ -415,23 +414,23 @@ Afin de positionner vos blocks vous pourrez donc attribuer plusieurs propriété
 
 La différence entre **block** et **inline**:
 
-Un ```<p>``` peut être un block, ils seront le plus souvent disposés les uns aprés les autres!
+Un ```<p>``` peut être un block, ils seront le plus souvent disposés les uns après les autres!
 
 Un ```<a>``` va généralement être un élément inline à l'intérieur d'un autre block.
 
-Vous avez aussi une propriété très utilisées, display: inline-block;
+Vous avez aussi une propriété très utilisée, display: inline-block;
 
 Ceci vous aidera à donner une width et height à votre élément.
 
-display: none; est utiliseé pour cacher un élément (cette pripriété est trés utilisée en JavaScript).
+display: none; est utiliseé pour cacher un élément (cette propriété est très utilisée en JavaScript).
 
 ####Position
 
-position: relative; Cette propriété met le block en position relative. Elle aura pour but de placer l'élément en dessous le block relatif précedemt.
+position: relative; Cette propriété met le block en position relative. Elle aura pour but de placer l'élément en dessous le block relatif précédent.
 
 position: absolute; Cette propriété fait flotter le block à l'intérieur du dernier block relatif parent.
 
-position: fixed; Cette propriété fait flotter le block là où vous lui dites d'aller! Si vous descendez sur la page, votre élément suivra!
+position: fixed; Cette propriété fait flotter le block là où vous lui dites d'aller ! Si vous descendez sur la page, votre élément suivra !
 
 [Vous pouvez essayer ce tutoriel rapide et très complet à ce sujet!](http://learnlayout.com/ "learn layout"):
 
@@ -479,9 +478,9 @@ Essayez autant que vous le voulez, ça ne marchera pas!
 
 ####Mais où je suis?
 
-Si vous avez des problèmes à localiser et interpreter vos modifications, vous pouvez donner une bordure à votre block border: 1px solid;
+Si vous avez des problèmes à localiser et interpréter vos modifications, vous pouvez donner une bordure à votre block border: 1px solid;
 
-C'est un peu meanless, mais ce tips vous sauvera enormement de temps au début!
+C'est un peu meanless, mais ce tips vous sauvera énormément de temps au début!
 
 ####Un peu de logique?
 
@@ -515,4 +514,4 @@ Par exemple, une transition sera écrite comme suit:
           transition: all 1s ease;
 }
 ```
-Cela permettra à tous les navigateurs de comprendre ce que l'on veut. En effet tous ne tourne pas avec le même moteur et on leur propre façon d'interpreter vos demandes. 
+Cela permettra à tous les navigateurs de comprendre ce que l'on veut. En effet, tout ne tourne pas avec le même moteur et on leur propre façon d'interpréter vos demandes.
