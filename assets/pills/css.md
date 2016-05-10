@@ -41,15 +41,18 @@ Un usage trés pratique de cet inspecteur sera le fait de pouvoir trouver le cod
 La partie inférieur:
 C'est votre boite à outil CSS! Vous pouvez modifier votre site (à gauche) en temps réel et voir si votre code fonctionne comme vous le souhaitez!
 
-Vous avez enormement d'outils puissant et indispensable dans l'inspecteur d'élément, amusez-vous, posez-nous des questions, nous serons ravi de vous expliquer comment ça marche
-You have many many more tools in this inspect element, but we will not cover them here ! Play around you'll love it.
+Vous avez enormement d'outils puissant et indispensable dans l'inspecteur d'élément, amusez-vous, posez-nous des questions, nous serons ravi de vous expliquer comment tout marche!
 
-Introduction and inheritance
+Introduction et principe d'héritage
 ================
 
-CSS stands for Cascading Style Sheets. The cascading part means that there is an inheritance structure. A rule underneath an another one will take it over.
+CSS est l'acronyme de Cascading Style Sheets, feuilles de style en cascade.
+L'appélation "cascade" est expliqué par le fait que:
+1. Si une règle modifie un élément.
+2. Si une deuxiéme règle modifie un deuxième élément en dessous la premiére.
+3. Ce sera la deuxième règle qui fera effet.
 
-For example, if you do something like:
+Un petit exemple:
 
 ```css
 
@@ -63,9 +66,9 @@ h1 {
 
 ```
 
-The color of the h1 will be ? red
+La couleur du h1 (titre important) sera donc... ROUGE!
 
-Other example :
+Un autre exemple :
 
 ```css
 
@@ -79,28 +82,39 @@ h1 {
 
 ```
 
-The color of the h1 will be ? blue
+La couleur du h1 (titre important) sera donc... BLEU!
 
-So what is this strange selector " > " ? this is a selector and it means that it will target all the descendant h1 inside a div.
-This rule is more precise, so that means that the rule will take over.
+WTF?
 
->**Notice:** In order to priorities some rules from an another one, you can:                                                
-1) Put an element under an another one                                                                                     
-2) Target more specifically an element with an selector or by doing a suite of classes, IDs, etc (explore, you will learn by doing)
+Qu'est ce qu'il s'est passé!? Le selecteur " > " permet de cibler l'élément descendant. On selectionnera donc les titre en dessous d'une div.
+Exemple:
+```html
+<div>
+  <h1>Mon titre</h1>
+</div>
+```
+
+La couleur du titre est bleu car la règle est plus précise!
+Plus une règle est précise, plus elle aura de l'importance face aux autres.
+
+>**Rappel:** Si vous souhaitez mettre des règles de priorités dans votre code, vous pouvez:                                                
+1) Mettre un élément en dessous un autre                                                                                
+2) Cibler plus précisement votre élément (bloc) avec un selecteur, qui peut être une suite de balise, de class, d'ID, etc. Explorez tout ça dans l'inspecteur, vous apprendrai by doing :).
 
 
-We previously introduced the concept of inheritancce, now we will see how to manage them with the different selectors:
+Nous avons donc introduit le principe d'héritage, nous allons desormais voir différents sélécteur possibles.
 
 CSS Selectors
 ================
 
-We previously seen the " > " selector you can see a list of the 30 css selectors [ here](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048 "css selectors"):
+Nous venons d'introduire le selcteur " > ". Vous pourrez trouver une liste de 30 selecteur
+[ICI](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048 "css selectors"):
 
-We will cover here the most used:
+Nous couvrirons les plus utilisés:
 
-####The star selector " * ":
+####Le selecteur étoile " * ":
 
-This will select all the elements of the DOM:
+Celui-ci ciblera tous les éléments du DOM.
 
 ```css
 
@@ -110,9 +124,11 @@ This will select all the elements of the DOM:
 
 ```
 
-####The tag element selector :
+Sauf si... une régle plus precise impact un ou plusieur éléments!
 
-In order to target a specific tag, you can only mention it as we did it in the example above:
+####Le selecteur " balise ", ou " tag ":
+
+Pour cibler une balise spécifique, vous pouvez mentionner cette ou ces balises comme suit:
 
 ```css
 
@@ -126,11 +142,13 @@ p {
 
 ```
 
-####The class selector " . ":
+Tous les titres seront bleus, et les paragraphe auront une longueur de 700px.
 
-Remember, during the lecture, we've seen that we could make a bridge between the HTML and CSS file !
+####Le selecteur de class " . ":
 
-if we have this HTML code:
+Rapellez-vous, pendant le cours, nous avons vu ensemble comment faire le pont entre le HTML et le CSS.
+
+Si vous avez ce code HTML:
 
 ```html
 
@@ -139,7 +157,7 @@ if we have this HTML code:
 </p>
 ```
 
-in order to style this paragraph, you will need to target it like that in the CSS file:
+Vous pouvez désormais designer votre paragraphe (<p></p>) en ciblant sa classe comme suit:
 
 ```css
 
@@ -147,7 +165,7 @@ p.this_is_my_class_selector {
   width: 600px;
 }
 
-or
+ou
 
 .this_is_my_class_selector {
   width: 600px;
@@ -155,10 +173,9 @@ or
 
 ```
 
-####The ID selector " # ":
+####Le selecteur d'ID " # ":
 
-It works exactly in the same way as the class selector:
-
+Cela marche exactement comme le selecteur de class:
 
 ```html
 
@@ -167,11 +184,11 @@ It works exactly in the same way as the class selector:
 </p>
 ```
 
-in order to style this paragraph, you will need to target it like that in the CSS file:
+Vous pouvez désormais designer votre paragraphe (<p></p>) en ciblant son ID comme suit:
 
 ```css
 
-p#this_is_my_class_selector {
+p#this_is_my_ID_selector {
   width: 600px;
 }
 ```
@@ -179,20 +196,25 @@ p#this_is_my_class_selector {
 or
 
 ```css
-#his_is_my_class_selector {
+#his_is_my_ID_selector {
   width: 600px;
 }
 
 ```
-So, what is the differences between ID and Classes ?
+Mais alors, qu'elle est la difference entre une ID et une classe?
 
-An ID is can be used only once, a class can be re-used as much as you need.
-In order to make a better difference, think about your website, it will have many blocks that will looks exactly the same.
-For example, a paragraph can always have the same style. To do that properly, you will style one time the paragraph, with the same class and it will looks the same on all your website.
+Une ID ne peut être utilisée qu'une seule fois.
+Une classe peut être utilisée autant de fois que nécessaire!
 
-####The diple selector " > ":
+Imaginez votre site,
 
-The Diple will help you to select the next element in the DOM.
+Si vous souhaitez que tout vos titres soient en rouge et fassent 25px, vous pourrez utiliser une class que vous appliquerai à tout vos titre.
+
+Seulement, pour une question de design, vous souhaitez qu'un titre soit différent, vous pourrez alors utiliser une ID.
+
+####Le sélecteur chevron " > ":
+
+Le chevron vous aidera à séléctionner l'élément descendant dans le DOM:
 
 ```css
 
@@ -201,10 +223,8 @@ div#container > ul {
 }
 
 ```
+Cette régle donnera une longueur de 600px à toutes les <ul></ul> (listes à puces) placées en dessous une div avec la class "container":
 
-This will give a width of 600px to the direct the ul under the div that has the ID container.
-
-If you have :
 
 ```html
 
@@ -222,29 +242,26 @@ If you have :
 </div>
 
 ```
+La seconde liste à puce <ul></ul> ne sera donc pas affectée.
 
-The second list will not be affected by the css declaration.
+####Le sélecteur plus " + ":
 
-####The plus selector " + ":
-
-This will select only the first element after the tag:
+Il ciblera seulement le premier élément aprés et pas à l'interieur:
 
 ```css
 
-ul > li {
+div + p {
   width: 600px;
 }
 
 ```
+Seul le premier paragraphe après une div sera ciblé par cette règle.
 
-Only the first ```li``` will be affeted by the declaration.
+####Le sélecteur virgule " , ":
 
+Celui-ci vous aidera à definir les mêmes règles pour plusieurs éléments.
 
-####The comma selector " , ":
-
-This will help you to define the same CSS rules to multiple different element.
-
-For example, if I want that all of my input and textarea have the same width, I can do something like:
+Par exemple si vous souhaitez que tous les input et les text-area de vos formulaire fassent la mêmes taille, vous pouvez faire ceci:
 
 ```css
 
@@ -254,22 +271,22 @@ input, textarea {
 
 ```
 
-####Combine them !
+####Combinez les!
 
 ```css
 div#form input.input, textarea, p > button {
   border: 6px solid red;
 }
 ```
+Cette régle va donner une bordure rouge de 6px à:
 
-This will give a red border of 6px to:
+les input, les textarea et les bouton à l'intérieur d'un paragraphe si tous ces selecteur sont à l'intérieur d'une div qui a une id "form".
 
-the input, textarea and the button inside of the paragraph if all those selector are inside a div that has the ID "form".
 
-CSS Proprieties
+Propriétés CSS
 ================
 
-**background-color:** background color of the block selected;
+**background-color:** couleur de fond du block séléctionné;
 
 ```css
 p.warning-notice {
@@ -277,7 +294,7 @@ p.warning-notice {
 }
 ```
 
-**color:** font color of the block;
+**color:** couleur de la police d'écriture du block séléctionné;
 
 
 ```css
@@ -286,7 +303,8 @@ p {
 }
 ```
 
-**font:** There are several properties describing what font should be used;
+**font:** Cette propriété possède plusieurs "sous" propriété;
+On dit que c'est une super propriété.
 
 ```css
 body {
@@ -295,10 +313,15 @@ body {
   font-style: italic;
   font-weight: bold;
 }
+
+ou
+
+body {
+  font: Arial, Helvetica, Sans-Serif, 18px, italic, bold;
+}
 ```
 
-**text-align:** Determines how children are aligned horizontally (not just text, any children);
-
+**text-align:** Détermine comment un enfant est aligné horizontalement;
 ```css
 #menu {
   text-align: right;
@@ -306,7 +329,7 @@ body {
 ```
 
 
-**border:** border of the block element targeted;
+**border:** bordure du block ciblé;
 
 ```css
 li.menu-item {
@@ -314,7 +337,7 @@ li.menu-item {
 }
 ```
 
-**width and height:** size of the block targeted;
+**width and height:** dimension du block séléctionné;
 
 ```css
 .photo {
@@ -323,19 +346,19 @@ li.menu-item {
 }
 ```
 
-There is way way more CSS proprieties, [you can find them here](http://www.htmldog.com/reference/cssproperties/ "css proprieties"):
+Il existe bien plus de propriétés CSS![Vous pouvez les trouver ici](http://www.htmldog.com/reference/cssproperties/ "css proprieties"):
 
-The box model:
+Le box model:
 ================
 
 ![css box model](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/CSS%20Challenge/box_model.png)
 
-This will help you to place your elements.
+Ceci va vous aider à placer vos éléments/block.
 
-598x198 : This is width and height of the element (let's say it is a paragraph).
-padding 16px: Your paragraph has a 16px padding on top bottom left and right.
-margin-top & margin-bottom 30px: Your paragraph will be placed at 30px from the block above and below.
-margin-left & margin-right 40px: Your paragraph will be placed at 40px from the block on the left and on the right.
+598x198 : C'est la longueur et largeur de votre élément (disons que c'est un paragraphe)
+padding 16px: Votre paragraphe a 16px de padding tout autour de lui.
+margin-top & margin-bottom 30px: Votre paragraphe aura 30px en haut et en bas de votre block.
+margin-left & margin-right 40px: Votre paragraphe aura 40px à gauche et à droite de votre block.
 
 ![css box model](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/CSS%20Challenge/boxmodelannot.png)
 
@@ -347,14 +370,14 @@ div {
     margin: 0;
 }
 ```
-Here is the math:
+Voici le calcul:
 320px (width)
 + 20px (left + right padding)
 + 10px (left + right border)
 + 0px (left + right margin)
 = 350px
 
-Or you can use a simple declaration:
+Ou alors vous pouvez utiliser une simple declaration:
 
 ```css
 div {
@@ -366,7 +389,7 @@ div {
         box-sizing: border-box;
 }
 ```
-Here is the math:
+Voici le calcul:
 350px (width)
 + 20px (left + right padding)
 + 10px (left + right border)
@@ -375,52 +398,51 @@ Here is the math:
 
 WTF?
 
-The box-sizing: border-box; declaration takes the border and the padding in count when you set a width !
-Now the full block will have a width of 350px.
-It is way easy to manage such a block.
+La box-sizing: border-box; déclaration prend en compte les bordure, et le padding lorsque vous donner une valeur à la width.
+Le block mesure désormais 350px. Lorsque vous développez un site en entier, comportant des milliers de lignes, ça sera beaucoup plus facile pour vous de manipuler ce type de block!
 
-Positioning
+Le positionnement
 ================
 
-Positioning is the aim of CSS, without it, our pages will be a succession of blocks.
+Le positionnement est une des principales fonctions du CSS! Sans ça, notre page ne serait qu'une succession de block les uns après les autres.
 
->A block-level element occupies the entire "line" by default, so other elements are positioned above and below it, whereas an inline element flows with other elements, leaving them on their left and on the right.
-Evgeny
+>Un élément mis en display: block; prend par defaut la taille de la ligne en entier. Les autres éléments sont donc placés en dessous ou au dessus de celui-ci.
+Un élément placé en display:inline; laisse les autres éléments à gauche et/ou à droite de  celui-ci.
 
-In order to position your blocks, you can attribute them two differents properties:
+Afin de positionner vos blocks vous pourrez donc attribuer plusieurs propriétés.
 
 ####Display
 
-The difference between **block** and **inline**:
+La différence entre **block** et **inline**:
 
-a ```<p>``` can be a block, they will be usally displayed one after the other
+Un ```<p>``` peut être un block, ils seront le plus souvent disposés les uns aprés les autres!
 
-a ```<a>``` will generally be an inline element inside of a <p>
+Un ```<a>``` va généralement être un élément inline à l'intérieur d'un autre block.
 
-You also have a common value for this property, display: inline-block;
+Vous avez aussi une propriété très utilisées, display: inline-block;
 
-This will help you to give a width and height to your inline element.
+Ceci vous aidera à donner une width et height à votre élément.
 
-display: none; is used to hide an element (You will see more in the Javascript Part)
+display: none; est utiliseé pour cacher un élément (cette pripriété est trés utilisée en JavaScript).
 
 ####Position
 
-position: relative; This set the block in a relative position. That means it will be positioned after the lat relative block.
+position: relative; Cette propriété met le block en position relative. Elle aura pour but de placer l'élément en dessous le block relatif précedemt.
 
-position: absolute; This means it is "floating" inside the last relative block.
+position: absolute; Cette propriété fait flotter le block à l'intérieur du dernier block relatif parent.
 
-position: fixed; This will float on the page where you ask me to be, you can scroll the window, it will follow.
+position: fixed; Cette propriété fait flotter le block là où vous lui dites d'aller! Si vous descendez sur la page, votre élément suivra!
 
-[Checkout this super quick tutorial that will helps you to understand everything.](http://learnlayout.com/ "learn layout"):
+[Vous pouvez essayer ce tutoriel rapide et très complet à ce sujet!](http://learnlayout.com/ "learn layout"):
 
 Tips&Tricks:
 ================
 
-####Comments
+####Commentaires
 
-A CSS comment can be written in two differents ways:
+Un commentaire CSS peut être écrit de deux façons différentes:
 
-1 line comment:
+Commentaire en ligne:
 
 ```css
 
@@ -429,7 +451,7 @@ A CSS comment can be written in two differents ways:
 }
 
 ```
-Multiple line comment:
+Commentaire en paragraphe:
 
 ```css
 /*
@@ -443,7 +465,7 @@ again ..
 
 ```
 
-####Do not start with a number :
+####Ne commencez jamais avec un chiffre:
 
 ```css
 
@@ -453,35 +475,36 @@ again ..
 
 ```
 
-This will not work...
+Essayez autant que vous le voulez, ça ne marchera pas!
 
-####Where I am?
+####Mais où je suis?
 
-If you have trouble to localize your block or understand its behaviour, write a border: 1px solid black;
-This little meanless trick will save you a lot of time for the beginning.
+Si vous avez des problèmes à localiser et interpreter vos modifications, vous pouvez donner une bordure à votre block border: 1px solid;
 
-####Logic :
+C'est un peu meanless, mais ce tips vous sauvera enormement de temps au début!
+
+####Un peu de logique?
 
 ```css
 
 div.fluid_center  {
   width: 200px;
-  margin-left: calc(50% - 200px);
+  margin-left: calc(50% - 100px);
 }
 
 ```
 
-This will center the .fluid_width div block in the middle.
-It has a width of 200px and it is at 50% of the left side of the page.
+Cette règle aura pour but de centrer l'élément .fluid_width au milieu de la page.
+Le block sera à 50% du bord gauche, moins la moitié de sa taille, donc au milieu :).
 
-####Vendor prefix
+####Le Cross-Browsing... On ne m'avait pas prévenu...
 
--webkit- for Chrome                                                                                                          
--moz- for Firefox                                                   
--o- for Opera                                                   
--ms- for IE                                                   
+-webkit- pour Chrome                                                                                                    
+-moz- pour Firefox                                                   
+-o- pour Opera                                                   
+-ms- pour IE                                                   
 
-For Example, a transition will be written like that:
+Par exemple, une transition sera écrite comme suit:
 
 ```css
 .transition {
@@ -492,3 +515,4 @@ For Example, a transition will be written like that:
           transition: all 1s ease;
 }
 ```
+Cela permettra à tous les navigateurs de comprendre ce que l'on veut. En effet tous ne tourne pas avec le même moteur et on leur propre façon d'interpreter vos demandes. 
