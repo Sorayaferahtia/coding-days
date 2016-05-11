@@ -1,101 +1,90 @@
 Challenge 5 - Make it live!
 ================
 
-###Section 1 -  Link a library (30min)
+###Section 1 -  Le framework ruby Sinatra! (30min)
 
-In order to stick the task to your memory, let's do it !
+Nous vous avons preparé le framework pour qu'il soit déjà fonctionnel!
 
-For this project, we will use the Twitter Bootstrap Library.
+Nous allons donc "Forker" le projet pour que vous puissiez le modifier à votre guise!
 
-In order to link it, you can:
-  1- Download the library                                                 
-    - Link it from your assets to your index file.                                                 
-  2- Load it from a Content Delivery Network (CDN)                                                 
-    - It is quick to do, and loads faster because it comes from an another server, so while yours is loading the content, the CDN is loading the library.
+1. Aller sur la page
+[GitHub project page](https://github.com/Coding-Days/sinatra-app "Sinatra app")
 
-> The best practice will be to load both:                                                                               
-Load the CDN, if the CDN is not available, then, load the local library                                               
-I let you explore how to do that ;)
-
-###Section 2 -  The big settlement !
-
-What we will do now is Forking the project. That means, doing a copy of someone repo into your own profile. That will allow you to have a proper copy of the project where you can work easily and do a "pull request" if you are satisfate with your work. The pull request will send a notification to the project owner. He will be able to check your code and if he likes it, then incorporate it inside his project.
-
-1- Go to the [GitHub project page](https://github.com/BobRazoswki/Taster-Challenge_4 "taster challenge 4")
-2- Click on "Fork"                                                 
+2. Cliquez sur "Fork"                                                 
 ![fork](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/CSS%20Challenge/fork.png)
 
-3- Wait during the progress                                                 
+3. Attendez pendant le transfert                                                
 ![waiting process](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/CSS%20Challenge/wait.png)
 
-4- You can now see it on your profile                                                 
+4. Vous pouvez maintenant le voir sur votre compte perso!                                                 
 ![forked repo](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/CSS%20Challenge/forked.jpg)
 
+Le projet est donc désormais sur votre compte Github, mais pas encore sur votre ordinateur! Il va falloir cloner le projet pour ça!
 
-5- Clone the project inside your computer                                                 
-
-Be careful, cloning a project will directly create the repo with its name.                                                           
-So run the command where you want to see your project folder (something easy, like your desktop)
-
+1.
 ```bash
-git clone https://github.com/BobRazoswki/Taster-Challenge_4.git
-cd Taster-Challenge_4
-atom .
-```
-> cd stands for change directory, it is the way to go from one folder to an another one inside of the terminal
-> atom . Will open everything inside the repo on atom (that's what the " . " is for)
-If you prefer, you can open your text editor and open the project via File > open >
 
-6- Today, only two files will interest us:                                                 
+git clone https://github.com/VOTRE-NOM/sinatra-app.git
+cd sinatra-app
+atom . #SUR MAC
+XXXX . #SUR PC
+
+```
+Attention, lorsque vous cloner le projet, il va créer un repo avec son nom directement, donc mettez le aà la racine du dossier souhaité.
+
+> cd signifie "change directory" c'est donc la commande pour vous balader sur votre ordinateur depuis votre terminal
+
+>atom . dit à votre IDE (ici atom), d'ouvrir tous les fichiers enfants de là où vous êtes.
+
+2. Nous nous interesserons seulement à deux fichiers:                                                 
   - Index.erb
   - Style.css
 
-**You can find them in: app > views > index.erb && public > css > style.css**
+**Vous les trouverez dans: app > views > index.erb && public > css > style.css**
 
-I let you find out and explore a bit what is happening in the different files.
-> After the course, feel free to modify them and have fun to play with it in order to understand how it is working !
+Baladez vous un peu dans le framework, explorez et posez-nous des questions si vous en avez!
 
 
-7- In order to see the project live, you will need to start the server with:                                                 
+3. Pour voir votre site à travers un serveur (comme le fera Heroku), vous devez lancer votre serveur local.
+
+Toujours aà la racine de votre repo, lancer le serveur avec la commande suivante:
 
 ```bash
-Open a new tab in your terminal with cmd + t
 heroku local
 ```
 
-8- Just to see if it is working:                                                 
-  - Write a Hello World in your index.html
-  - Open your browser
-  - Go on this URI: http://localhost:5000
+Aller à l'adresse suivante dans votre navigateur: http://localhost:5000
 
-If it is working, go on the next step !
+Si ça marche aller à l'étape 4!
 
-9- Once you've coded your first feature you can push it live to see if Heroku server interpret exactly the same thing as your local server (heroku local).
+4. Copier le contenu des fichiers:
+  - index.html dans index.erb du framework
+  - style.css dans style.css du framework
 
-Remember, if you are agile, you release **often** and **early** ! So do it after each features.
+Recharger la page http://localhost:5000 et assurez-vous que tout est pareil que ce matin.
 
-to do that run the following commands :
+Si vous êtes satisfait, next step!
+
+
+>Rappellez vous, si vous êtes agile, vous mettez votre code en ligne **souvent** et **tôt**. Faite le donc apres chaque feature.
+
+5. Vous avez donc votre site visible grace au serveur local d'Heroku, maintenant, mettons le en ligne pour de vrai!!
 
 ```bash
-heroku create the-name-of-your-project
+heroku create le-nom-de-votre-projet
 git add .
 git commit -m "adds my first feature"
 git push origin master
 git push heroku master
 heroku open
 ```
-###Section 3 -  Create a new page !
 
-Let's sum it up a bit.
+Ça dit quoi? ;)
 
-1- You already know how to code HTML and CSS, put them together in order to have a beautiful website.                  
-2- You know how to load a library in order to use already build features.                                              
-3- You know how to push it properly on your local machine and on Heroku.                                                 
+###Section 3 -  Créer une nouvelle page pour votre site !
 
-Now, let's create our second page and link it to the first one.
-
-1- Create a second file in /views (name it as you want).                                                 
-2- Open the index.rb inside /controllers and make a GET request to the new page you've just created.
+1. Créez une seconde page dans le dossier /views et nommé le comme vous voulez (l'extension doit être en .erb).                                               
+2. Ouvrez le fichier index.rb dans /controllers et faite une requête GET pour la nouvelle page que vous venez de créer.
 
 ```ruby
 get '/my-second-page' do
@@ -103,44 +92,12 @@ get '/my-second-page' do
 end
 ```
 
-3- You can now code inside the my-second-page.erb and you will see the changement if you go to:                         
-  - http://localhost:5000/my-second-page (to see the changement locally)
-  - http://my-application.herokuapp.com  (after having pushed it to github)
+3. Vous pouvez désormais developper dans  ma-seconde-page.erb et vous verrez les changements sur:                        
+  - http://localhost:5000/ma-seconde-page.erb (pour voir les changement en local)
+  - http://mon-application.herokuapp.com/ma-seconde-page.erb  (après avoir push to heroku)
 
-4- You can know link your different pages inside your menu :)                                                       
-5- Try to make your page responsive
+4. Vous pouvez maintenant lier les deux pages dans votre menu :)                                                       
 
-> If you think you are not ready for responsive, no worries, we can wait to have strong basis and after jump on Responsive.
+Si vous avez fini, amusez-vous à peaufiner votre appli, vous êtes arrivé à la fin :)
 
-You can now go code and push it live every time you get something done.
-
-### Section 2: Hello World ! (20 min)
-Commençons par recréer simplement la page représenté ci-dessus.
-
-![hello world image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/Hello%20world.png)
-
-Pour se faire, suivez les instructions suivantes :
-
-1. Ouvrez votre IDE ([Atom](https://atom.io/ "Atom.io") or [Notepad++](https://notepad-plus-plus.org/download/v6.9.1.html "Notepad++"))
-
-2. Créez un fichier index.html
-
-3. Écrire les balises HTML de votre page (le squelette)
-
-4. Ajoutez un titre (h1) à votre page
-
-5. Faites de votre titre, un lien cliquable.
-
-6. Retournez dans le dossier ou votre fichier index.html se trouve, et ouvrez le avec votre navigateur
-
-> **Bonnes pratiques:**
-Indentez votre code
-
-> **Bonus challenge:**
-Faites une recherche sur internet - et recherchez : "attributs des liens html" [sur Google](https://google.fr/ "Google")
-
-Super ! Vous venez tout juste de créer votre première page HTML !
-
-Demain, on le mets en ligne, vous venez d'apprendre un élement essentiel ! Vous travaillez en local dans un premier temps, ensuite, lorsque le résultat correspond à vos attentes, vous le mettez en ligne.                                           You first work locally and when you've got the result you expected, you can push it live.
-
-![hello world image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/mockup%20example.gif)
+VOUS ALLEZ NOUS MANQUER !!!
