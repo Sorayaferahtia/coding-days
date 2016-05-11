@@ -145,8 +145,7 @@ Quelques liens utiles:
 <details>
   <summary>La solution est là mais essayé de ne pas la regarder!</summary>
     <details>
-      <summary> Je suis un tricheur et je l'assume...</summary>
-
+      <summary>Je suis un tricheur et je l'assume... </summary>
        ```js
          jQuery( document ).ready(function() {
            setTimeout(function(){
@@ -156,7 +155,6 @@ Quelques liens utiles:
            }, 10000);
          });
        ```
-       
     </details>
 </details>
 
