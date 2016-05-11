@@ -142,15 +142,17 @@ Quelques liens utiles:
 - http://www.sitepoint.com/jquery-settimeout-function-examples/
 - http://api.jquery.com/css/
 
-La solution est là mais essayé de ne pas la regarder!
-
->!
-  jQuery( document ).ready(function() {
-    setTimeout(function(){
-      jQuery("h1, h2, h3, h4, h5, h6").css("color", "red");
-      alert("Yataaa!!");
-    }, 10000);
-  });
+<details>
+  <summary>La solution est là mais essayé de ne pas la regarder!</summary>
+   ```js
+   jQuery( document ).ready(function() {
+     setTimeout(function(){
+       jQuery("h1, h2, h3, h4, h5, h6").css("color", "red");
+       alert("Yataaa!!");
+     }, 10000);
+   });
+   ```
+</details>
 
 
 
