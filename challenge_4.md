@@ -146,15 +146,17 @@ Quelques liens utiles:
   <summary>La solution est là mais essayé de ne pas la regarder!</summary>
     <details>
       <summary> Je suis un tricheur et je l'assume...</summary>
+
        ```js
-       jQuery( document ).ready(function() {
-         setTimeout(function(){
-           jQuery("h1, h2, h3, h4, h5, h6").css("color", "red");
-           alert("Yataaa!!!");
-           console.log("Yataaa!!!");
-         }, 10000);
-       });
+         jQuery( document ).ready(function() {
+           setTimeout(function(){
+             jQuery("h1, h2, h3, h4, h5, h6").css("color", "red");
+             alert("Yataaa!!!");
+             console.log("Yataaa!!!");
+           }, 10000);
+         });
        ```
+       
     </details>
 </details>
 
