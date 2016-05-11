@@ -3,8 +3,8 @@ Challenge 1 - Be agile !
 
 Désormais, vous êtes censé savoir :
   - Ce que sont le HTML, CSS et JS
-  - Et comment les manipuler brievement
-  - Ce que sont les méthodes agiles et comment allons nous les utiliser tout au long du week-end.
+  - Et comment les manipuler brièvement
+  - Ce que sont les méthodes agiles et comment allons-nous les utiliser tout au long du week-end.
 
 Voilà ce qu'on sera amené à créer aujourd'hui
 
@@ -15,7 +15,7 @@ Voilà ce qu'on sera amené à créer aujourd'hui
 >Bien sûr, ce n'est qu'un exemple, vous êtes libre de créer la page que vous voulez.
 
 
-### Section 1: On commence, doucement (30min)
+### Section 1 : On commence, doucement (30min)
 
 La première chose à faire quand on code, c'est de ne pas coder.
 
@@ -29,4 +29,4 @@ La première chose à faire quand on code, c'est de ne pas coder.
 Voilà un exemple, faites au plus simple, il est censé vous aider, ce n'est pas du tout obligatoire de reproduire le même.
 ![mockup image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/mockup%20example.gif)
 
-[Prochain challenge, Les fondations !](https://github.com/makersacademy/taster2.0/blob/master/challenge_2.md "Challenge 2")
+[Next challenge, Les fondations !](https://github.com/makersacademy/taster2.0/blob/master/challenge_2.md "Challenge 2")
