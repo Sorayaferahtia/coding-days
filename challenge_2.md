@@ -1,8 +1,8 @@
 Challenge 2 - Les fondations !
 ================
 
-### Section 2: Hello World ! (20 min)
-Commençons par recréer simplement la page représentée ci-dessus.
+### Section 1: Hello World ! (20 min)
+Commençons par créer notre première page et essayons d'avoir pour cette première section d'avoir le fameux "Hello World" up and working.
 
 ![hello world image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/Hello%20world.png)
 
@@ -28,11 +28,11 @@ Faites une recherche sur internet - et recherchez : "attributs des liens html" [
 
 Super ! Vous venez tout juste de créer votre première page HTML !
 
-Demain, on le met en ligne, vous venez d'apprendre un élément essentiel ! Vous travaillez en local dans un premier temps, ensuite, lorsque le résultat correspond à vos attentes, vous le mettez en ligne.                                           You first work locally and when you've got the result you expected, you can push it live.
+Demain, on le met en ligne, vous venez d'apprendre un élément essentiel ! Vous travaillez en local dans un premier temps, ensuite, lorsque le résultat correspond à vos attentes, vous le mettez en ligne.                                         
 
 ![hello world image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/mockup%20example.gif)
 
-### Section 3: Du papier, au code (30min)
+### Section 2: Du papier, au code (30min)
 
 Maintenant, on va traduire ce qu'il y a sur votre feuille, dans votre IDE
 
@@ -41,7 +41,7 @@ Maintenant, on va traduire ce qu'il y a sur votre feuille, dans votre IDE
 
 > **Bonnes pratiques:**
 Indentez votre code
-N'oubliez pas les attributs
+N'oubliez pas les attributs pour les liens, les images, etc.
 
 
 Vous ne vous rappelez pas de toutes les balises ? Ne vous inquiétez pas, on y a pensé ! [Prenez une pilule de rappel :pill:](https://github.com/makersacademy/taster2.0/blob/master/assets/pills/html.md "Taster v2"), Gulp
@@ -52,28 +52,3 @@ Et si on rendait notre page un peu plus sympa !?
 
 
 [Prochain challenge, Make it Pretty !](https://github.com/makersacademy/taster2.0/blob/master/challenge_2.md "Challenge 2")
-
-
-
-
-
-### Section 3: Du papier, au code (30min)
-
-Maintenant on va traduire ce qu'il y a sur votre feuille, dans votre IDE
-
-1. Retournez sur votre IDE, et supprimez le contenu de la balise "body"
-2. Maintenant, codez votre mockup
-
-> **Bonnes pratiques:**
-Indentez votre code
-N'oubliez pas les attributs
-
-
-Vous ne vous rappelez pas de toutes les balises ? Ne vous inquietez pas, on y a pensé ! [Prenez une pilule de rappel :pill:](https://github.com/makersacademy/taster2.0/blob/master/assets/pills/html.md "Taster v2"), Gulp
-
-Hmm... C'est pas très sexy n'est ce pas ?
-
-Et si on rendait notre page un peu plus sympa !?
-
-
-[Prochain challenge, Make it Pretty !](https://github.com/makersacademy/taster2.0/blob/master/challenge_3.md "Challenge 3")

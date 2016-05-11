@@ -24,8 +24,7 @@ La première chose à faire quand on code, c'est de ne pas coder.
   - Article (titre, [texte](http://fr.lipsum.com/feed/html, "lorem ipsum") et [images](https://unsplash.com/, "Unsplash")
   - Footer
 2. Mettez-vous d'accord avec votre binôme
-2. Dans chacun des blocs, indiquez son type (article, section, blockquotes, etc)
-4. Mettez-vous d'accord avec votre binôme
+3. Dans chacun des blocs, indiquez son type (article, section, blockquotes, etc)
 
 Voilà un exemple, faites au plus simple, il est censé vous aider, ce n'est pas du tout obligatoire de reproduire le même.
 ![mockup image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/mockup%20example.gif)

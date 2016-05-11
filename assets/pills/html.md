@@ -5,7 +5,7 @@ HTML Pill
 <!doctype html>
 <html>
 <head>
-  <title> Titre de votre site web (visible entre autre dans l'onglet sur votre fenetre) </title>
+  <title> Titre de votre site web (visible entre autres dans l'onglet sur votre fenêtre) </title>
   <style> Inline CSS, vous pouvez oublier cette mauvaise pratique </style>
   <meta> Principalement pour le SEO </meta>
   <link> Afin de faire le pont avec votre feuille de style CSS </link>
@@ -21,9 +21,9 @@ HTML Pill
     </ul>
   <article>Si le contenu a du sens tout seul</article>
   <section>Si le contenu est lié</section>
-  <h1>De h1 à h6 (par importance), ce sont les titres visible sur votre site.</h1>
+  <h1>De h1 à h6 (par importance), ce sont les titres visibles sur votre site.</h1>
   <p>Un paragraphe</p>
-  <a href=“link”>texte du lien</a> regarder les differents attributs possibles.
+  <a href=“link”>texte du lien</a> regarder les différents attributs possibles.
   <img src=“link” alt=“description de l\'image”>
   <footer>Footer du block (section/article/etc)</footer>
 </body>

@@ -9,7 +9,7 @@ Comme nous l'avons vu pendant le cours, nous avons besoin de lier notre page HTM
 
 > Rappelez vous... Où est ce que l'on indique la localisation d'un ou plusieurs profils de métadonnées?
 
-2. Maintenant, on va vérifier notre travail! Afin d'être sur que le lien ait été correctement établie, vous pouvez écrire une déclaration plutôt voyante comme celle-ci:
+2. Maintenant, on va vérifier notre travail! Afin d'être sur que le lien ait été correctement établie, vous pouvez écrire une déclaration assez voyante comme celle-ci:
 
 ```css
 
@@ -59,14 +59,14 @@ Sur votre ordinateur portable 13 ou 15 pouces, pas vraiment de soucis à avoir u
 
 Mais sur un 24, 27 pouces ou une télé?
 
-  - Si vous n'avez pas de container votre header, il va prendre toute la longueur (du block), donc la longueur de l'écran sur lequel il est.
+  - Si vous n'avez pas de container, votre header va prendre toute la longueur (du block), donc la longueur de l'écran sur lequel il est.
 
   - Si vous avez un container qui a:
     - Soit une longueur en px,
     - Soit une longueur en %,
-    - Voir une autre unité.
+    - Voir une autre unité (allez fouiner sur le web).
 
-    Vous allez pouvoir encapsuler votre contenu qui sera alors positionner relativement par rapport à celui-ci.
+  Vous allez pouvoir encapsuler votre contenu qui sera alors positionner relativement par rapport à celui-ci.
 
   Concrètement, il va prendre sa taille quoi...
     - Mon container width: 80%;
