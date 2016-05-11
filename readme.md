@@ -20,13 +20,13 @@ Objectifs d'apprentissage
   - JS
   - Responsive Web-Design
 
-3. Connaissance sur:
+3. Connaissance sur :
   - Fonctionnement simplifié d'un serveur
   - Les différentes façons de créer un site (From scratch, CMS, MVC, etc)
   - Nom de domaine
   - Hébergement Web
   - Framework
-  - Libraries
+  - librairies
   - Bonnes et mauvaises pratiques
 
 Vous finirez le week-end en ayant une bonne idée de:
