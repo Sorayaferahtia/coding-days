@@ -1,7 +1,7 @@
 Challenge 2 - Les fondations !
 ================
 
-### Section 1: Hello World ! (20 min)
+### Section 1 : Hello World ! (20 min)
 Commençons par créer notre première page et essayons d'avoir pour cette première section d'avoir le fameux "Hello World" up and working.
 
 ![hello world image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/Hello%20world.png)
@@ -20,10 +20,10 @@ Pour se faire, suivez les instructions suivantes :
 
 6. Retournez dans le dossier ou votre fichier index.html se trouve, et ouvrez-le avec votre navigateur
 
-> **Bonnes pratiques:**
+> **Bonnes pratiques :**
 Indentez votre code
 
-> **Bonus challenge:**
+> **Bonus challenge :**
 Faites une recherche sur internet - et recherchez : "attributs des liens html" [sur Google](https://google.fr/ "Google")
 
 Super ! Vous venez tout juste de créer votre première page HTML !
@@ -32,23 +32,23 @@ Demain, on le met en ligne, vous venez d'apprendre un élément essentiel ! Vous
 
 ![hello world image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/mockup%20example.gif)
 
-### Section 2: Du papier, au code (30min)
+### Section 2 : Du papier, au code (30min)
 
 Maintenant, on va traduire ce qu'il y a sur votre feuille, dans votre IDE
 
 1. Retournez sur votre IDE, et supprimez le contenu de la balise "body"
 2. Maintenant, codez votre mockup
 
-> **Bonnes pratiques:**
+> **Bonnes pratiques :**
 Indentez votre code
 N'oubliez pas les attributs pour les liens, les images, etc.
 
 
-Vous ne vous rappelez pas de toutes les balises ? Ne vous inquiétez pas, on y a pensé ! [Prenez une pilule de rappel :pill:](https://github.com/makersacademy/taster2.0/blob/master/assets/pills/html.md "Taster v2"), Gulp
+Vous ne vous souvenez pas de toutes les balises ? Ne vous inquiétez pas, on y a pensé ! [Prenez une pilule de rappel :pill:](https://github.com/makersacademy/taster2.0/blob/master/assets/pills/html.md "Taster v2"), Gulp
 
-Hmm... Ce n'est pas très sexy n'est-ce-pas ?
+Hmm... Ce n'est pas très sexy n’est-ce pas ?
 
-Et si on rendait notre page un peu plus sympa !?
+Et si l'on rendait notre page un peu plus sympa !?
 
 
-[Prochain challenge, Make it Pretty !](https://github.com/makersacademy/taster2.0/blob/master/challenge_2.md "Challenge 2")
+[Next challenge, Make it Pretty !](https://github.com/Coding-Days/coding-days/blob/master/challenge_3.md "Challenge 2")

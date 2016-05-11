@@ -29,7 +29,7 @@ Objectifs d'apprentissage
   - librairies
   - Bonnes et mauvaises pratiques
 
-Vous finirez le week-end en ayant une bonne idée de:
+Vous finirez le week-end en ayant une bonne idée de :
   - Comment le web s'organise-t-il ?
   - Quelles sont les différentes façons de faire pour créer son site ou son appli ?
   - Comment est-ce que tout est lié ?

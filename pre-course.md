@@ -1,104 +1,80 @@
 Pre course
 ================
 
-Avant d'écrire sa première ligne de code, il vous faudra installer pas mal de petits logiciel!
+Avant d'écrire votre première ligne de code, il faudra installer des logiciels.
 
-Petit apercu du menu, vous devrez installer:
+Liste des logiciels que nous allons utiliser.
 
 - Git - Outil de collaboration et de versionning
-- Github - Représentation visuelle de l'outil de git
-- Ruby - Notre langage de predilection
-- Heroku - L'entreprise qui hébergera votre application à la fin du Week End.
-- Un éditeur de texte [Atom](https://atom.io/ "Atom.io") pour MAC et [NotePad ++](https://notepad-plus-plus.org/fr/ "NotePad ++") pour WINDOWS
+- Github - Représentation visuelle de l'outil de Git (Une interface moins brute)
+- Ruby - Notre langage de programmation
+- Heroku (toolbelt) - Application d'hébergement sur le Cloud, pour mettre en ligne, les fichiers que nous allons créer.
+- Un éditeur de texte [Atom](https://atom.io/ "Atom.io") pour Mac et [NotePad ++](https://notepad-plus-plus.org/fr/ "NotePad ++") pour Windows
 
-Ceci est une liste non-exaustive de ce dont vous aurez besoin pour développer, mais cela suffit amplement pour le Week End Coding Days!
+Ceci est une liste non-exaustive de ce dont vous aurez besoin pour développer, mais cela suffit amplement pour le Week End Coding-Days.
 
-> Si vous cherchez votre teminal: Ouvrez la barre de recherche MAC Spotlight, et recherchez "Terminal.app".
-Ou encore allez dans votre dossier /Applications puis /Utilitaires et choississez Terminal.app
-
-![terminal image](http://apple.blogovlow.com/files/2012/02/Terminal.png)
-
-###Utilisateur Windows
-1 - Installez Ruby sur votre machine [Ruby](http://rubyinstaller.org/downloads/ "Ruby")
->Si vous ne savez pas quelle version choisir, choisissez la version 2.3.0 (x64)
-
-
+###Utilisateurs Mac & Windows
 1- Créer un compte sur [Github](https://github.com/join "Github")                                            
 2- Créer un compte sur [Heroku](https://signup.heroku.com/ "Heroku")   
 
-###Utilisateurs MAC                                                
-3- Suivez les étapes d'installation sur: [Prepare to code](http://preparetocode.io "prepare to code")
-  - Site que nous vous avons preparé avec &#9829;                                       
-4- Une fois que tout est installé, redémarrez votre ordinateur                                                           
-5- Ouvrez de nouveau votre terminal et tapez les commandes suivantes                                                                                                                                     
->Si vous cherchez votre teminal: Ouvrez la barre de recherche MAC Spotlight, et recherchez "Terminal.app".
-Ou encore allez dans votre dossier /Applications puis /Utilitaires et choississez Terminal.app
-
 ###Utilisateurs Windows
-3- Téléchargez et installez Git pour Windows : [Git pour Windows](https://git-for-windows.github.io/ "Git pour Windows")
-4- Ouvrez maintenant l'invité de commande (c'est la console windows et tapez les commandes suivantes
->Appuyer sur les touches Windows et R en même temps, et taper cmd.exe
+1 - Téléchargez et installez Ruby [Ruby](http://rubyinstaller.org/downloads/ "Ruby")
+![Étape 1 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/ruby/1.jpg)
+![Étape 2 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/ruby/2.jpg)
+![Étape 3 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/ruby/3.jpg)
+![Étape 4 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/ruby/4.jpg)
+![Étape 5 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/ruby/5.jpg)
+![Étape 6 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/ruby/6.jpg)
+![Étape 7 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/ruby/7.jpg)
+![Étape 8 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/ruby/8.jpg)
 
+2 - Téléchargez et installez Git [Git pour Windows](https://git-for-windows.github.io/ "Git pour Windows")
+![Étape 1 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/git/1.jpg)
+![Étape 2 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/git/2.jpg)
+![Étape 3 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/git/3.jpg)
+![Étape 4 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/git/4.jpg)
+![Étape 5 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/git/5.jpg)
+![Étape 6 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/git/6.jpg)
+![Étape 7 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/git/7.jpg)
+![Étape 8 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/git/8.jpg)
+![Étape 9 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/git/9.jpg)
+![Étape 10 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/git/10.jpg)
 
->Le signe " $ " est une indication pour définir une ligne à taper. Vous ne devez donc pas le taper, c'est simplement une indication pour vous. Les autres lignes sont les réponses de votre terminal.
+2 - Téléchargez et installez Heroku Toolbet [Heroku pour Windows](https://toolbelt.heroku.com/windows "Heroku pour Windows")
+![Étape 1 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/heroku/1.jpg)
+![Étape 2 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/heroku/2.jpg)
+![Étape 3 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/heroku/3.jpg)
+![Étape 4 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/heroku/4.jpg)
+![Étape 5 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/heroku/5.jpg)
+![Étape 6 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/heroku/6.jpg)
+![Étape 7 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/heroku/7.jpg)
+![Étape 8 installation](https://github.com/Coding-Days/coding-days/tree/master/assets/images/Pre%20Course/heroku/8.jpg)
+3 - Ouvrez maintenant l'invité de commande (c'est la console windows et tapez les commandes suivantes)
+>Pour ouvrir l'invité de commande, ouvrez le menu démarrer, aller dans rechercher, et tapez cmd.exe.
+>L'invité de commande devrait apparaître.
 
 ```bash
 $ heroku login
 Enter your Heroku credentials.
 Email: me@example.com
 Password:
-
->Lorsque vous tapez votre mot de passe dans le Terminal rien ne se passe et c\'est normal. tapez le quand meme et faites entré.
-
-####Utilisateurs MAC   
-
-$ cd && cat .netrc
-machine api.heroku.com
-  login me@example.com
-  password c4cd94da15ea0544802c2cfd5ec4ead324327430
-machine git.heroku.com
-  login me@example.com
-  password c4cd94da15ea0544802c2cfd5ec4ead324327430
 ```
 
-[Suivez desormais ce lien pour parametrer Git:](https://help.github.com/articles/set-up-git/ "set up git")
+>Le signe " $ " est une indication pour définir une ligne à taper. Vous ne devez donc pas l'écrire. Les autres lignes sont les réponses de votre invité de commande
+>Notez que lorsque vous écrirez votre mot de passe, rien ne s'affichera, cela pour des raisons de sécurité (longueur du mot de passe cachée).
 
-**C'est bon! Vous êtes prêt pour le weekend!**
-=======
-Pre course
-================
 
-Avant d'écrire sa première ligne de code, il vous faudra installer pas mal de petits logiciel!
+####Sur MAC                                                
+1 - Suivez les étapes d'installation sur: [Prepare to code](http://preparetocode.io "prepare to code") (Un site preparé avec &#9829;)                                       
+2 - Une fois que tout est installé, redémarrez votre ordinateur                                                           
+3 - Ouvrez votre terminal et tapez les commandes suivantes           
 
-Petit apercu du menu, vous devrez installer:
-
-- Git - Outil de collaboration et de versionning
-- Github - Représentation visuelle de l'outil de git
-- Ruby - Notre langage de predilection
-- Heroku - L'entreprise qui hébergera votre application à la fin du Week End.
-- Un éditeur de texte [Atom](https://atom.io/ "Atom.io") pour MAC et [NotePad ++](https://notepad-plus-plus.org/fr/ "NotePad ++") pour WINDOWS
-
-Ceci est une liste non-exaustive de ce dont vous aurez besoin pour développer, mais cela suffit amplement pour le Week End Coding Days!
-
-> Si vous cherchez votre teminal: Ouvrez la barre de recherche MAC Spotlight, et recherchez "Terminal.app".
+>Si vous cherchez votre teminal: Ouvrez la barre de recherche MAC Spotlight, et recherchez "Terminal.app".
 Ou encore allez dans votre dossier /Applications puis /Utilitaires et choississez Terminal.app
-
 ![terminal image](http://apple.blogovlow.com/files/2012/02/Terminal.png)
 
-
-####Sur MAC
-1- Créer un compte sur [Github](https://github.com/join "Github")                                            
-2- Créer un compte sur [Heroku](https://signup.heroku.com/ "Heroku")                                                   
-3- Suivez les étapes d'installation sur: [Prepare to code](http://preparetocode.io "prepare to code")
-  - Site que nous vous avons preparé avec &#9829;                                       
-4- Une fois que tout est installé, redémarrez votre ordinateur                                                           
-5- Ouvrez de nouveau votre terminal et tapez les commandes suivantes                                                                                                                                     
->Si vous cherchez votre teminal: Ouvrez la barre de recherche MAC Spotlight, et recherchez "Terminal.app".
-Ou encore allez dans votre dossier /Applications puis /Utilitaires et choississez Terminal.app
-
->Le signe " $ " est une indication pour définir une ligne à taper. Vous ne devez donc pas le taper, c'est simplement une indication pour vous. Les autres lignes sont les réponses de votre terminal.
-
->Lorsque vous tapez votre mot de passe dans le Terminal rien ne se passe et c'est normal. tapez le quand meme et faites entré.
+>Le signe " $ " est une indication pour définir une ligne à taper. Vous ne devez donc pas l'écrire. Les autres lignes sont les réponses de votre invité de commande
+>Notez que lorsque vous écrirez votre mot de passe, rien ne s'affichera, cela pour des raisons de sécurité (longueur du mot de passe cachée).
 
 ```bash
 $ heroku login
@@ -115,7 +91,5 @@ machine git.heroku.com
   password c4cd94da15ea0544802c2cfd5ec4ead324327430
 ```
 
-[Suivez desormais ce lien pour parametrer Git:](https://help.github.com/articles/set-up-git/ "set up git")
-
-
+[Suivez désormais ce lien pour parametrer Git:](https://help.github.com/articles/set-up-git/ "Set up Git")
 **C'est bon! Vous êtes prêt pour le weekend!**
