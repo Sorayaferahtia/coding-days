@@ -150,7 +150,7 @@ Quelques liens utiles:
 
 
 
-
+```js
        jQuery( document ).ready(function() {
          setTimeout(function(){
            jQuery("h1, h2, h3, h4, h5, h6").css("color", "red");
@@ -158,7 +158,7 @@ Quelques liens utiles:
            console.log("Yataaa!!!");
          }, 10000);
        });
-
+```
 
 
   </details>
