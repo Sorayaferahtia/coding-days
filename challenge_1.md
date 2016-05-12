@@ -21,7 +21,7 @@ La première chose à faire quand on code, c'est de ne pas coder.
 
 1. Prenez de quoi faire un croquis [the website](https://taster-challenge-2.herokuapp.com/ "Challenge_2") des éléments à placer sur votre page.
   - Menu
-  - Article (titre, [texte](http://fr.lipsum.com/feed/html, "lorem ipsum") et [images](https://unsplash.com/, "Unsplash")
+  - Article (titre, [texte](http://fr.lipsum.com/feed/html "lorem ipsum") et [images](https://unsplash.com/ "Unsplash")
   - Footer
 2. Mettez-vous d'accord avec votre binôme
 3. Dans chacun des blocs, indiquez son type (article, section, blockquotes, etc)

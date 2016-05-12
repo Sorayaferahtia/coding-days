@@ -43,9 +43,8 @@ Ne jamais faire copier/coller!!!
 Si vous commencez à copier/coller vous ne vous souviendrez jamais de toutes les balises, méthodes, syntaxe, etc
 
 Comme Evegeny, mon coding mentor l'a si bien dit :
->You're strongly encouraged to type in all code instead of copy-pasting it. This will really help your understanding of how everything works.
-We can't stress this enough. Copy and Paste is the DEVIL!! Even though at times you will be copying chunks of code, the simple process of typing it yourself will help you learn. Trust us. You can't cut corners.
 
+>You're strongly encouraged to type in all code instead of copy-pasting it. This will really help your understanding of how everything works. We can't stress this enough. Copy and Paste is the DEVIL!! Even though at times you will be copying chunks of code, the simple process of typing it yourself will help you learn. Trust us. You can't cut corners.
 
 Let's start !
 ================
