@@ -17,6 +17,78 @@ Ceci est une liste non-exaustive de ce dont vous aurez besoin pour développer, 
 1- Créer un compte sur [Github](https://github.com/join "Github")                                            
 2- Créer un compte sur [Heroku](https://signup.heroku.com/ "Heroku")   
 
+
+####Utilisateurs MAC
+
+Si vous cherchez votre teminal: Ouvrez la barre de recherche MAC Spotlight, et recherchez "Terminal.app".
+Ou encore allez dans votre dossier /Applications puis /Utilitaires et choississez Terminal.app
+![terminal image](http://apple.blogovlow.com/files/2012/02/Terminal.png)
+
+Le signe " $ " est une indication pour définir une ligne à taper. Vous ne devez donc pas l'écrire. Les autres lignes sont les réponses de votre invité de commande
+
+>Notez que lorsque vous écrirez votre mot de passe, rien ne s'affichera, cela pour des raisons de sécurité (longueur du mot de passe cachée).
+
+1. Suivez les étapes d'installation (de gauche à droite) sur: [Prepare to code](http://www.preparetocode.io/mac/essential/ "prepare to code") (Un site preparé avec &#9829;)      
+
+>
+- N'installez pas PRY, vous n'en aurez pas besoin pour le week-end.
+- N'oubliez pas de redémarrer le terminal apres avoir installé RVM.
+
+2. Installer GIT avec le lien suivant:
+[Git installer](https://git-scm.com/download/mac "Git installer")
+Ou
+[Git installer](https://sourceforge.net/projects/git-osx-installer/files/latest/download "Git installer")
+
+Maintenant que votre ordinateur sait parler avec Git, il va falloir lui dire qui vous êtes et donc configurer votre compte sur votre ordinateur.
+
+```bash
+
+$ git config --global user.name "YOUR NAME"
+
+$ git config --global user.email "YOUR EMAIL ADDRESS"
+
+```
+
+Vérifiez maintenant que vous êtes bien connecté:
+
+```bash
+
+$ git config user.name
+"YOUR NAME"
+$ git config user.email
+"YOUR EMAIL ADDRESS"
+
+```
+
+
+3. Une fois que tout est installé, redémarrez votre ordinateur                                                           
+4. Ouvrez votre terminal et tapez les commandes suivantes          
+
+Maintenant que votre ordinateur sait parler avec Heroku, il va falloir lui dire qui vous êtes et donc configurer votre compte sur votre ordinateur.
+
+```bash
+$ heroku login
+Enter your Heroku credentials.
+Email: me@example.com
+Password:
+```
+Vérifiez maintenant que vous êtes bien connecté:
+
+```bash
+
+$ cd && cat .netrc
+machine api.heroku.com
+  login me@example.com
+  password c4cd94da15ea0544802c2cfd5ec4ead324327430
+machine git.heroku.com
+  login me@example.com
+  password c4cd94da15ea0544802c2cfd5ec4ead324327430
+
+```
+
+**C'est bon! Vous êtes prêt pour le weekend!**
+
+
 ###Utilisateurs Windows
 1 - Téléchargez et installez Ruby [Ruby](http://rubyinstaller.org/downloads/ "Ruby")
 ![Étape 1 installation](https://raw.githubusercontent.com/Coding-Days/coding-days/master/assets/images/Pre%20Course/ruby/1.jpg)
@@ -62,34 +134,3 @@ Password:
 
 >Le signe " $ " est une indication pour définir une ligne à taper. Vous ne devez donc pas l'écrire. Les autres lignes sont les réponses de votre invité de commande
 >Notez que lorsque vous écrirez votre mot de passe, rien ne s'affichera, cela pour des raisons de sécurité (longueur du mot de passe cachée).
-
-
-####Sur MAC                                                
-1 - Suivez les étapes d'installation sur: [Prepare to code](http://preparetocode.io "prepare to code") (Un site preparé avec &#9829;)                                       
-2 - Une fois que tout est installé, redémarrez votre ordinateur                                                           
-3 - Ouvrez votre terminal et tapez les commandes suivantes           
-
->Si vous cherchez votre teminal: Ouvrez la barre de recherche MAC Spotlight, et recherchez "Terminal.app".
-Ou encore allez dans votre dossier /Applications puis /Utilitaires et choississez Terminal.app
-![terminal image](http://apple.blogovlow.com/files/2012/02/Terminal.png)
-
->Le signe " $ " est une indication pour définir une ligne à taper. Vous ne devez donc pas l'écrire. Les autres lignes sont les réponses de votre invité de commande
->Notez que lorsque vous écrirez votre mot de passe, rien ne s'affichera, cela pour des raisons de sécurité (longueur du mot de passe cachée).
-
-```bash
-$ heroku login
-Enter your Heroku credentials.
-Email: me@example.com
-Password:
-
-$ cd && cat .netrc
-machine api.heroku.com
-  login me@example.com
-  password c4cd94da15ea0544802c2cfd5ec4ead324327430
-machine git.heroku.com
-  login me@example.com
-  password c4cd94da15ea0544802c2cfd5ec4ead324327430
-```
-
-[Suivez désormais ce lien pour parametrer Git:](https://help.github.com/articles/set-up-git/ "Set up Git")
-**C'est bon! Vous êtes prêt pour le weekend!**
