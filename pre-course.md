@@ -8,10 +8,10 @@ Liste des logiciels que nous allons utiliser.
 - Git - Outil de collaboration et de versionning
 - Github - Représentation visuelle de l'outil de Git (Une interface moins brute)
 - Ruby - Notre langage de programmation
-- Heroku (toolbelt) - Application d'hébergement sur le Cloud, pour mettre en ligne, les fichiers que nous allons créer.
+- Heroku (toolbelt) - Application d'hébergement sur le Cloud, pour mettre en ligne, le site que nous allons créer pendant le weekend.
 - Un éditeur de texte [Atom](https://atom.io/ "Atom.io") pour Mac et [NotePad ++](https://notepad-plus-plus.org/fr/ "NotePad ++") pour Windows
 
-Ceci est une liste non-exaustive de ce dont vous aurez besoin pour développer, mais cela suffit amplement pour le Week End Coding-Days.
+Ceci est une liste non exhaustive de ce dont vous aurez besoin pour développer, mais cela suffit amplement pour le Week End Coding-Days.
 
 ###Utilisateurs Mac & Windows
 1- Créer un compte sur [Github](https://github.com/join "Github")                                            
@@ -21,18 +21,18 @@ Ceci est une liste non-exaustive de ce dont vous aurez besoin pour développer, 
 ####Utilisateurs MAC
 
 Si vous cherchez votre teminal: Ouvrez la barre de recherche MAC Spotlight, et recherchez "Terminal.app".
-Ou encore allez dans votre dossier /Applications puis /Utilitaires et choississez Terminal.app
+Ou encore allez dans votre dossier /Applications puis /Utilitaires et choisissez Terminal.app
 ![terminal image](http://apple.blogovlow.com/files/2012/02/Terminal.png)
 
 Le signe " $ " est une indication pour définir une ligne à taper. Vous ne devez donc pas l'écrire. Les autres lignes sont les réponses de votre invité de commande
 
 >Notez que lorsque vous écrirez votre mot de passe, rien ne s'affichera, cela pour des raisons de sécurité (longueur du mot de passe cachée).
 
-1. Suivez les étapes d'installation (de gauche à droite) sur: [Prepare to code](http://www.preparetocode.io/mac/essential/ "prepare to code") (Un site preparé avec &#9829;)      
+1. Suivez les étapes d'installation (de gauche à droite) sur: [Prepare to code](http://www.preparetocode.io/mac/essential/ "prepare to code") (Un site préparé avec &#9829;)      
 
 >
 - N'installez pas PRY, vous n'en aurez pas besoin pour le week-end.
-- N'oubliez pas de redémarrer le terminal apres avoir installé RVM.
+- N'oubliez pas de redémarrer le terminal après avoir installé RVM.
 
 2. Installer GIT avec le lien suivant:
 [Git installer](https://git-scm.com/download/mac "Git installer")
@@ -72,7 +72,7 @@ Enter your Heroku credentials.
 Email: me@example.com
 Password:
 ```
-Vérifiez maintenant que vous êtes bien connecté:
+Vérifiez maintenant que vous êtes bien connecté :
 
 ```bash
 
@@ -86,7 +86,7 @@ machine git.heroku.com
 
 ```
 
-**C'est bon! Vous êtes prêt pour le weekend!**
+**C'est bon! Vous êtes prêt pour le week-end!**
 
 
 ###Utilisateurs Windows
