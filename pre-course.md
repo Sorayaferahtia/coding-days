@@ -33,7 +33,7 @@ Quelques vidéos à regarder avant de continuer :
 
 
 ####Sur MAC                                                
-1 - Suivez les étapes d'installation sur: [Prepare to code](http://preparetocode.io "prepare to code") (Un site preparé avec &#9829;)                                       
+1 - Suivez les étapes d'installation sur: [Prepare to code](http://www.preparetocode.io/mac/essential/ "prepare to code") (Un site preparé avec &#9829;)                                       
 2 - Une fois que tout est installé, redémarrez votre ordinateur                                                           
 3 - Ouvrez votre terminal et tapez les commandes suivantes           
 
