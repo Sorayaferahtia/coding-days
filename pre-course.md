@@ -40,7 +40,7 @@ Quelques vidéos à regarder avant de continuer :
 
 >Si vous cherchez votre teminal: Ouvrez la barre de recherche MAC Spotlight, et recherchez "Terminal.app".
 Ou encore allez dans votre dossier /Applications puis /Utilitaires et choississez Terminal.app
-![terminal image](http://apple.blogovlow.com/files/2012/02/Terminal.png)
+![terminal image](https://raw.githubusercontent.com/Coding-Days/coding-days/master/assets/images/Pre%20Course/Terminal.png)
 
 >Le signe " $ " est une indication pour définir une ligne à taper. Vous ne devez donc pas l'écrire. Les autres lignes sont les réponses de votre invité de commande
 >Notez que lorsque vous écrirez votre mot de passe, rien ne s'affichera, cela pour des raisons de sécurité (longueur du mot de passe cachée).
