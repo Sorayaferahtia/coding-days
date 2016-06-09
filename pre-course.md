@@ -5,6 +5,10 @@ Pendant le weekend, vous allez travailler sur un projet personnel (votre portfol
 Allez jeter un coup d'oeil sur [Unsplash](https://unsplash.com/ "Unsplash"), il y a de jolies photos.
 Et sur [Lorem Ipsum](http://fr.lipsum.com/ "Lorem Ipsum"), si vous n'avez pas d'idée pour le wording, c'est un générateur de faux texte.
 
+Essayer de dessiner votre "Mock up" sur papier, ça devrait ressembler à quelque choses comme ça:
+
+![mockup image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/mockup%20example.gif)
+
 Liste des logiciels que nous allons utiliser.
 
 - Git - Outil de collaboration et de versionning
@@ -15,12 +19,12 @@ Liste des logiciels que nous allons utiliser.
 
 Ceci est une liste non-exaustive de ce dont vous aurez besoin pour développer, mais cela suffit amplement pour le Week End Coding-Days.
 
-Quelques vidéos à regarder avant de continuer
-[Learning GIT](https://www.youtube.com/watch?v=_Jmkvv_nKTE "Learning GIT")
-[What is the difference between Git and GitHub? ](https://www.youtube.com/watch?v=xKVlZ3wFVKA "What is the difference between Git and GitHub? ")
-[What Is Github ](https://www.youtube.com/watch?v=VUaBfYCmJls "What Is Github ")
+Quelques vidéos à regarder avant de continuer :
+- [Learning GIT](https://www.youtube.com/watch?v=_Jmkvv_nKTE "Learning GIT")
+- [What is the difference between Git and GitHub? ](https://www.youtube.com/watch?v=xKVlZ3wFVKA "What is the difference between Git and GitHub? ")
+- [What Is Github ](https://www.youtube.com/watch?v=VUaBfYCmJls "What Is Github ")
 
-[http://stackoverflow.com/questions/11008787/what-exactly-is-heroku](http://stackoverflow.com/questions/11008787/what-exactly-is-heroku "http://stackoverflow.com/questions/11008787/what-exactly-is-heroku")
+- [http://stackoverflow.com/questions/11008787/what-exactly-is-heroku](http://stackoverflow.com/questions/11008787/what-exactly-is-heroku "http://stackoverflow.com/questions/11008787/what-exactly-is-heroku")
 
 ###Utilisateurs Mac & Windows
 1- Créer un compte sur [Github](https://github.com/join "Github")                                            
