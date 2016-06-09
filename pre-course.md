@@ -5,7 +5,7 @@ Pendant le weekend, vous allez travailler sur un projet personnel (votre portfol
 Allez jeter un coup d'oeil sur [Unsplash](https://unsplash.com/ "Unsplash"), il y a de jolies photos.
 Et sur [Lorem Ipsum](http://fr.lipsum.com/ "Lorem Ipsum"), si vous n'avez pas d'idée pour le wording, c'est un générateur de faux texte.
 
-Essayer de dessiner votre "Mock up" sur papier, ça devrait ressembler à quelque choses comme ça:
+Essayer de dessiner votre "Mock up" sur papier, ça devrait ressembler à quelque choses comme ça (en plus simple):
 
 ![mockup image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/mockup%20example.gif)
 
