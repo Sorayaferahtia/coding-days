@@ -1,54 +1,79 @@
-Challenge 2 - Les fondations !
+Challenge 2 - Make it pretty !
 ================
 
-### Section 1 : Hello World ! (20 min)
-Commençons par créer notre première page et essayons d'avoir pour cette première section d'avoir le fameux "Hello World" up and working.
+### Section 1 : Faire le pont ! (20 min)
 
-![hello world image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/Hello%20world.png)
+Comme nous l'avons vu pendant le cours, nous avons besoin de lier notre page HTML à notre page CSS.
 
-Pour se faire, suivez les instructions suivantes :
+1. Nous devons donc dire à notre page HTML où trouver la feuille de style CSS.
 
-1. Ouvrez votre IDE ([Atom](https://atom.io/ "Atom.io") or [Notepad++](https://notepad-plus-plus.org/download/v6.9.1.html "Notepad++"))
+> Rappelez-vous... Où est-ce que l'on indique la localisation d'un ou plusieurs profils de métadonnées ?
 
-2. Créez un fichier index.html
+2. Maintenant, on va vérifier notre travail! Afin d'être sûr que le lien ait été correctement établi, vous pouvez écrire une déclaration assez voyante comme celle-ci :
 
-3. Écrire les balises HTML de votre page (le squelette)
+```css
 
-4. Ajoutez un titre (h1) à votre page
+body {
+  background: lightblue;
+}
 
-5. Faites de votre titre, un lien cliquable.
+```
 
-6. Retournez dans le dossier ou votre fichier index.html se trouve, et ouvrez-le avec votre navigateur
-
-> **Bonnes pratiques :**
-Indentez votre code
-
-> **Bonus challenge :**
-Faites une recherche sur internet - et recherchez : "attributs des liens html" [sur Google](https://google.fr/ "Google")
-
-Super ! Vous venez tout juste de créer votre première page HTML !
-
-Demain, on le met en ligne, vous venez d'apprendre un élément essentiel ! Vous travaillez en local dans un premier temps, ensuite, lorsque le résultat correspond à vos attentes, vous le mettez en ligne.                                         
-
-![hello world image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/mockup%20example.gif)
-
-### Section 2 : Du papier, au code (30min)
-
-Maintenant, on va traduire ce qu'il y a sur votre feuille, dans votre IDE
-
-1. Retournez sur votre IDE, et supprimez le contenu de la balise "body"
-2. Maintenant, codez votre mockup
-
-> **Bonnes pratiques :**
-Indentez votre code
-N'oubliez pas les attributs pour les liens, les images, etc.
+> Pour les plus geek, ouvrez l'inspecteur d'élément, allez sur l'onglet réseau, recharger la page, et vérifiez que le fichier style.css charge correctement.
 
 
-Vous ne vous souvenez pas de toutes les balises ? Ne vous inquiétez pas, on y a pensé ! [Prenez une pilule de rappel :pill:](https://github.com/makersacademy/taster2.0/blob/master/assets/pills/html.md "Taster v2"), Gulp
+### Section 2 : Créer les blocs ! (1h30)
 
-Hmm... Ce n'est pas très sexy n’est-ce pas ?
+> Lorsque vous écrivez vos "class" et "Id", n'écrivez pas:
+  .x or .y, etc
+Préférez:
+  .menu .menu__ul .menu__li
 
-Et si l'on rendait notre page un peu plus sympa !?
+C'est pourquoi nous vous avons demander de dessiner, puis coder votre structure HTML avant, dans le but de donner des noms cohérents aux différents class et ID de vos blocs.
+
+>Le ptit +: Commentez et indentez votre code correctement!
+
+([Prenez cette pilule :pill:](https://github.com/Coding-Days/coding-days/blob/master/assets/pills/css.md "csspill") si vous avez des difficultés), gulp
+
+1. Commencez par le haut de votre site puis descendez progressivement
+  - Réalisez dans un premier temps
+    - Le header
+    - Le menu
+    - etc
+2. Essayez de positionner vos éléments de façons intelligentes.
+  - Votre header peut être un bloc, relatif au body, avec une certaine hauteur.
+  - Ceci vous aidera à placer de façon automatique les éléments en dessous les uns par rapport aux autres.
+
+3. Toujours sur le header, vous pouvez choisir plusieurs options
+
+Voici deux header légèrements différents:
+
+**Sans container**
+![header no container](https://raw.githubusercontent.com/Coding-Days/coding-days/master/assets/images/CSS%20Challenge/header__noContainer.png)
+**Avec container**
+![header container](https://raw.githubusercontent.com/Coding-Days/coding-days/master/assets/images/CSS%20Challenge/header__container.png)
+
+Imaginez votre site sur plusieurs supports...
+
+Sur votre ordinateur portable 13 ou 15 pouces, pas vraiment de soucis à avoir un header qui prend toute la longueur..
+
+Mais sur un 24, 27 pouces ou une télé?
+
+  - Si vous n'avez pas de container, votre header va prendre toute la longueur (du block), donc la longueur de l'écran sur lequel il est.
+
+  - Si vous avez un container qui a :
+    - Soit une longueur en px,
+    - Soit une longueur en %,
+    - Voir une autre unité (allez fouiner sur le web).
+
+  Vous allez pouvoir encapsuler votre contenu qui sera alors positionné relativement par rapport à celui-ci.
+
+  Concrètement, il va prendre sa taille quoi...
+    - Mon container width: 80%;
+      - Mon header en display: block;
+
+    - Si vous vous demandez pourquoi est-t-il positionné à gauche et pas au milieu comme sur la photo, je suis certain que vous allez trouver comment le centrer!
 
 
-[Next challenge, Make it Pretty !](https://github.com/Coding-Days/coding-days/blob/master/challenge_3.md "Challenge 2")
+
+[Next Challenge, be Responsive!](https://github.com/Coding-Days/coding-days/blob/master/challenge_3.md "Challenge 3")

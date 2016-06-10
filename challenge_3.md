@@ -1,79 +1,164 @@
-Challenge 3 - Make it pretty !
+Challenge 4 - Be responsive !
 ================
 
-### Section 1 : Faire le pont ! (15 min)
+Ok, donc maintenant vous avez une page web, stylisé, il ne reste plus qu'à la rendre jolie sur tous les supports.
 
-Comme nous l'avons vu pendant le cours, nous avons besoin de lier notre page HTML à notre page CSS.
+Pour ce faire, nous utiliserons la technique vue pendant le cours, les media queries!
 
-1. Nous devons donc dire à notre page HTML où trouver la feuille de style CSS.
+### Section 1 : Ma première media ! (20 min)
 
-> Rappelez-vous... Où est-ce que l'on indique la localisation d'un ou plusieurs profils de métadonnées ?
+Ici on vous conseille d'essayer de faire des colonnes qui se réagenceront toutes seules au format mobile ou tablette.
 
-2. Maintenant, on va vérifier notre travail! Afin d'être sûr que le lien ait été correctement établi, vous pouvez écrire une déclaration assez voyante comme celle-ci :
+1. Pour rappel, la media queries s'écrit dans la feuille de style CSS.
+2. Repérer un comportement non souhaité lorsque vous redimensionnez votre fenêtre et décidez de ce que vous allez en faire.
+3. Ouvrez l'inspecteur d'élément et repérez le breakpoint sur lequel il va falloir agir.
+   Pour ce faire regarder les pixels comme sur la photo ci-dessous.
+![Pixel inspector image](https://raw.githubusercontent.com/Coding-Days/coding-days/master/assets/images/Challenge%204/pixel-inspecteur.jpg)
+4. Une fois votre breakpoint repéré, définissez votre media, elle peut avoir plusieurs formes:
+    - @media screen and (max-width: 640px)
+    - @media screen and (min-width: 200px) and (max-width: 640px)
+
+>Si vous voulez une liste non exhaustive mais bien complète, c'est [ici](https://github.com/makersacademy/taster2.0/blob/master/challenge_4.md "Challenge 4") https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+
+Pour rappel, une media querie s'écrit comme suit :
 
 ```css
 
-body {
-  background: lightblue;
+@media screen and (max-width: 640px) {
+  .header {
+    width: 600px;
+  }
+  /* Mes autres déclarations */
 }
 
 ```
+### Section 2 : On check et double check ! (15 min)
 
-> Pour les plus geek, ouvrez l'inspecteur d'élément, allez sur l'onglet réseau, recharger la page, et vérifiez que le fichier style.css charge correctement.
+On l'a déjà dit, mais l'inspecteur d'élément, c'est juste indispensable.. Il existe une fonction qui va vous permettre d'émuler le terminal sur lequel vous travaillez.
+Regardez la photo ci-dessous et cliquez sur l'icône.
 
+![Pixel inspector image](https://raw.githubusercontent.com/Coding-Days/coding-days/master/assets/images/Challenge%204/device-emulator.jpg)
 
-### Section 2 : Créer les blocs ! (1h30)
+Vous pouvez donc écrire et checker votre code en live afin d'aller à l'essentiel !
 
-> Lorsque vous écrivez vos "class" et "Id", n'écrivez pas:
-  .x or .y, etc
-Préférez:
-  .menu .menu__ul .menu__li
+> N'oubliez pas la règle d'héritage, mettez vos media à la fin de votre code pour qu'elle s'exécute après le code desktop.
 
-C'est pourquoi nous vous avons demander de dessiner, puis coder votre structure HTML avant, dans le but de donner des noms cohérents aux différents class et ID de vos blocs.
+**Lorsque vous arrivez là, que vous avez écrit quelques media dites-le-nous pour que l'on passe au cours sur les librairies et framework! :)**
 
->Le ptit +: Commentez et indentez votre code!
+### Section 3 : Du responsive avec bootstrap avec jquery! (15 min)
 
-([Prenez cette pilule :pill:](https://github.com/Coding-Days/coding-days/blob/master/assets/pills/css.md "csspill") si vous avez des difficultés), gulp
+Vous savez maintenant ce qu'est une librairie et un framework! Nous allons désormais utiliser les deux !
 
-1. Commencez par le haut de votre site puis descendez progressivement
-  - Réalisez dans un premier temps
-    - Le header
-    - Le menu
-    - etc
-2. Essayez de positionner vos éléments de façons intelligentes.
-  - Votre header peut être un bloc, relatif au body, avec une certaine hauteur.
-  - Ceci vous aidera à placer de façon automatique les éléments en dessous les uns par rapport aux autres.
+Pour ce faire:
 
-3. Toujours sur le header, vous pouvez choisir plusieurs options
+1. Il faudra faire le lien avec les fichiers souhaitez. Il existe deux façons de faire:
+  - Faire appel aux fichiers à partir d'un CDN (Content Delivery Network), ce qui veut dire que les fichiers sont sur un serveur distant (pas le vôtre), et que vous lui demandez, à chaque chargement de page, de vous donner les infos.
 
-Voici deux header légèrements différents:
+>**Pros** Ca va plus vite, le chargement de ces fichiers n'est pas à la charge de votre serveur.
+**Cons** Ça peut être risqué si le CDN est down (tombe), ce qui veut dire qu'il ne sera pas actif et ne pourra pas vous communiquer les fichiers.
 
-**Sans container**
-![header no container](https://raw.githubusercontent.com/Coding-Days/coding-days/master/assets/images/CSS%20Challenge/header__noContainer.png)
-**Avec container**
-![header container](https://raw.githubusercontent.com/Coding-Days/coding-days/master/assets/images/CSS%20Challenge/header__container.png)
+  - Faire appel aux fichiers à partir de votre serveur. Vous stockerez donc les fichiers dans votre site et ils seront donc toujours dispo.
 
-Imaginez votre site sur plusieurs supports...
+> Si quelqu'un trouve la solution pour bénéficier du beurre, l’argent du beurre et du cul de la fermière, dites-le-nous! Il y en a une ;) !
 
-Sur votre ordinateur portable 13 ou 15 pouces, pas vraiment de soucis à avoir un header qui prend toute la longueur..
+2. Aujourd'hui, nous ferons appel au CDN, c'est la solution la plus simple pour être up and running rapidement.
 
-Mais sur un 24, 27 pouces ou une télé?
+3. Rappelez-vous du cours d'hier sur le pont à faire entre vos fichiers HTML et CSS/JS
+  - Où fait-on le pont?
+  - Vers quelle source ou href la balise pointera?
 
-  - Si vous n'avez pas de container, votre header va prendre toute la longueur (du block), donc la longueur de l'écran sur lequel il est.
+> Voici deux liens vers les deux CDN dont nous aurons besoin:
 
-  - Si vous avez un container qui a :
-    - Soit une longueur en px,
-    - Soit une longueur en %,
-    - Voir une autre unité (allez fouiner sur le web).
+Bootstrap: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css
+jQuery: https://code.jquery.com/jquery-2.2.3.min.js
 
-  Vous allez pouvoir encapsuler votre contenu qui sera alors positionné relativement par rapport à celui-ci.
+Faites ce qu'il faut faire avec ;)
 
-  Concrètement, il va prendre sa taille quoi...
-    - Mon container width: 80%;
-      - Mon header en display: block;
+### Section 4 : BootStrap et son Grid magique! (15 min)
 
-    - Si vous vous demandez pourquoi est-t-il positionné à gauche et pas au milieu comme sur la photo, je suis certain que vous allez trouver comment le centrer!
+Maintenant que vous avez bien galéré avec vos colonnes au format tablette ou mobile on va voir comment bootstrap peut vous aider!
 
+>Pour Rappel, Bootstrap vous propose des class (entre autres, mais nous n'utiliserons que ça ce week-end) qui changeront le comportement de vos blocks une fois mis en place.
+
+Le grid bootstrap se présente comme suit:
+![Grid bootstrap image](https://bootstrapbay.com/blog/wp-content/uploads/2014/09/bootstrap-grid-system.jpg)
+
+Le colonnes sont donc très facilement malléables, et si vous souhaitez un comportement différent selon les terminaux, vous pouvez utiliser différentes colonnes:
+
+![Pixel inspector image](https://raw.githubusercontent.com/Coding-Days/coding-days/master/assets/images/Challenge%204/colonnes-bootstrap.png)
 
 
-[Next Challenge, be Responsive!](https://github.com/Coding-Days/coding-days/blob/master/challenge_4.md "Challenge 4")
+Pour effectuer un grid bootstrap sur votre site, il y aura plusieurs conditions :
+1. Créer un container :
+```html
+<section class="container">
+
+</section>
+```
+2. Créer une row qui aura pour but de créer un groupe horizontal de colonnes.
+```html
+<section class="container">
+  <div class="row">
+
+  </div>
+</section>
+```
+3. Créer desormais vos colonnes:
+```html
+<section class="container">
+  <div class="row">
+    <article class="col-md-8">
+      Mon contenu à gauche
+    </article>
+    <aside class="col-md-4">
+      Mon contenu à droite
+    </aside>
+  </div>.;
+</section>
+```
+
+Les colonnes vont donc s'agencer toutes seules :).
+
+>Plus de doc [ici](https://getbootstrap.com/css/#grid "bootstrap")
+
+### Section 5 : Un peu de jQuery maintenant! (15 min)
+
+Afin que vous compreniez facilement comment le JS est utilisé, on utilisera la librairie jQuery qui vous permettra d'écrire du JS très simplement!
+
+On ne va pas pousser trop loin mais essayer simplement de faire changer le comportement de la page du côté client.
+
+Ce qu'on vous propose aujourd'hui c'est de changer les titres de couleur 10 secondes après que la page ait chargée!
+
+On utilisera donc plusieurs fonctions :
+- $( document ).ready(function() pour faire en sorte d'être sur que la page soit bien chargée avant d'exécuter notre code.
+- setTimeout(function(){ votre code }, les milli secondes); Pour dire à la page d'attendre X secondes.
+- $( "sélecteur(s)" ).css("declaration", "valeur"); Pour dire à un sélecteur de changer son style.
+
+> On vous propose de changer la couleur des titres après 10 secondes, mais si vous avez des idées similaires, faites-vous plaisir !
+
+Quelques liens utiles :
+- https://learn.jquery.com/using-jquery-core/document-ready/
+- http://www.sitepoint.com/jquery-settimeout-function-examples/
+- http://api.jquery.com/css/
+
+<details>
+  <summary>La solution est là mais essayez de ne pas la regarder!</summary>
+  <details>
+    <summary>Je suis un tricheur et je l'assume... </summary>
+
+```js
+       jQuery( document ).ready(function() {
+         setTimeout(function(){
+           jQuery("h1, h2, h3, h4, h5, h6").css("color", "red");
+           alert("Yataaa!!!");
+           console.log("Yataaa!!!");
+         }, 10000);
+       });
+```
+
+
+  </details>
+</details>
+
+
+[Prêt pour la mise en ligne ?  !](https://github.com/Coding-Days/coding-days/blob/master/challenge_5.md "Challenge 5")

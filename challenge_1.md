@@ -1,32 +1,54 @@
-Challenge 1 - Be agile !
+Challenge 1 - Les fondations !
 ================
 
-Désormais, vous êtes censé savoir :
-  - Ce que sont le HTML, CSS et JS
-  - Et comment les manipuler brièvement
-  - Ce que sont les méthodes agiles et comment allons-nous les utiliser tout au long du week-end.
+### Section 1 : Hello World ! (20 min)
+Commençons par créer notre première page et essayons d'avoir pour cette première section d'avoir le fameux "Hello World" up and working.
 
-Voilà ce qu'on sera amené à créer aujourd'hui
+![hello world image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/Hello%20world.png)
 
-![hello world image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/Challenges/Challenge_2/assets/images/Challenge%202.png)
+Pour se faire, suivez les instructions suivantes :
 
-[Démonstration](https://taster-challenge-2.herokuapp.com/ "Challenge_2")
+1. Ouvrez votre IDE ([Atom](https://atom.io/ "Atom.io") or [Notepad++](https://notepad-plus-plus.org/download/v6.9.1.html "Notepad++"))
 
->Bien sûr, ce n'est qu'un exemple, vous êtes libre de créer la page que vous voulez.
+2. Créez un fichier index.html
+
+3. Écrire les balises HTML de votre page (le squelette)
+
+4. Ajoutez un titre (h1) à votre page
+
+5. Faites de votre titre, un lien cliquable.
+
+6. Retournez dans le dossier ou votre fichier index.html se trouve, et ouvrez-le avec votre navigateur
+
+> **Bonnes pratiques :**
+Indentez votre code
+
+> **Bonus challenge :**
+Faites une recherche sur internet - et recherchez : "attributs des liens html" [sur Google](https://google.fr/ "Google")
+
+Super ! Vous venez tout juste de créer votre première page HTML !
+
+Demain, on le met en ligne, vous venez d'apprendre un élément essentiel ! Vous travaillez en local dans un premier temps, ensuite, lorsque le résultat correspond à vos attentes, vous le mettez en ligne.                                         
+
+![hello world image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/mockup%20example.gif)
+
+### Section 2 : Du papier, au code (60min)
+
+Maintenant, on va traduire ce qu'il y a sur votre feuille, dans votre IDE
+
+1. Retournez sur votre IDE, et supprimez le contenu de la balise "body"
+2. Maintenant, codez votre mockup
+
+> **Bonnes pratiques :**
+Indentez votre code
+N'oubliez pas les attributs pour les liens, les images, etc.
 
 
-### Section 1 : On commence, doucement (30min)
+Vous ne vous souvenez pas de toutes les balises ? Ne vous inquiétez pas, on y a pensé ! [Prenez une pilule de rappel :pill:](https://github.com/makersacademy/taster2.0/blob/master/assets/pills/html.md "Taster v2"), Gulp
 
-La première chose à faire quand on code, c'est de ne pas coder.
+Hmm... Ce n'est pas très sexy n’est-ce pas ?
 
-1. Prenez de quoi faire un croquis [the website](https://taster-challenge-2.herokuapp.com/ "Challenge_2") des éléments à placer sur votre page.
-  - Menu
-  - Article (titre, [texte](http://fr.lipsum.com/feed/html "lorem ipsum") et [images](https://unsplash.com/ "Unsplash")
-  - Footer
-2. Mettez-vous d'accord avec votre binôme
-3. Dans chacun des blocs, indiquez son type (article, section, blockquotes, etc)
+Et si l'on rendait notre page un peu plus sympa !?
 
-Voilà un exemple, faites au plus simple, il est censé vous aider, ce n'est pas du tout obligatoire de reproduire le même.
-![mockup image](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/HTML%20Challenge/mockup%20example.gif)
 
-[Next challenge, Les fondations !](https://github.com/Coding-Days/coding-days/blob/master/challenge_2.md "Challenge 2")
+[Next challenge, Make it Pretty !](https://github.com/Coding-Days/coding-days/blob/master/challenge_2.md "Challenge 2")
