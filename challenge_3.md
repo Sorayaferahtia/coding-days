@@ -45,7 +45,7 @@ Vous pouvez donc écrire et checker votre code en live afin d'aller à l'essenti
 
 **Lorsque vous arrivez là, que vous avez écrit quelques media dites-le-nous pour que l'on passe au cours sur les librairies et framework! :)**
 
-### Section 3 : Du responsive avec bootstrap avec jquery! (15 min)
+### Section 3 : Du responsive avec bootstrap ! (20 min)
 
 Vous savez maintenant ce qu'est une librairie et un framework! Nous allons désormais utiliser les deux !
 
@@ -54,8 +54,9 @@ Pour ce faire:
 1. Il faudra faire le lien avec les fichiers souhaitez. Il existe deux façons de faire:
   - Faire appel aux fichiers à partir d'un CDN (Content Delivery Network), ce qui veut dire que les fichiers sont sur un serveur distant (pas le vôtre), et que vous lui demandez, à chaque chargement de page, de vous donner les infos.
 
->**Pros** Ca va plus vite, le chargement de ces fichiers n'est pas à la charge de votre serveur.
-**Cons** Ça peut être risqué si le CDN est down (tombe), ce qui veut dire qu'il ne sera pas actif et ne pourra pas vous communiquer les fichiers.
+>
+- **Pros** Ca va plus vite, le chargement de ces fichiers n'est pas à la charge de votre serveur.
+- **Cons** Ça peut être risqué si le CDN est down (tombe), ce qui veut dire qu'il ne sera pas actif et ne pourra pas vous communiquer les fichiers.
 
   - Faire appel aux fichiers à partir de votre serveur. Vous stockerez donc les fichiers dans votre site et ils seront donc toujours dispo.
 
@@ -74,7 +75,7 @@ jQuery: https://code.jquery.com/jquery-2.2.3.min.js
 
 Faites ce qu'il faut faire avec ;)
 
-### Section 4 : BootStrap et son Grid magique! (15 min)
+### Section 4 : BootStrap et son Grid magique! (25 min)
 
 Maintenant que vous avez bien galéré avec vos colonnes au format tablette ou mobile on va voir comment bootstrap peut vous aider!
 
@@ -95,7 +96,7 @@ Pour effectuer un grid bootstrap sur votre site, il y aura plusieurs conditions 
 
 </section>
 ```
-2. Créer une row qui aura pour but de créer un groupe horizontal de colonnes.
+2. Créer une row qui aura pour but de créer un groupe horizontal de colonnes et mettre des margin des deux côtés.
 ```html
 <section class="container">
   <div class="row">
@@ -121,7 +122,7 @@ Les colonnes vont donc s'agencer toutes seules :).
 
 >Plus de doc [ici](https://getbootstrap.com/css/#grid "bootstrap")
 
-### Section 5 : Un peu de jQuery maintenant! (15 min)
+### Section 5 : Un peu de jQuery maintenant! (25 min)
 
 Afin que vous compreniez facilement comment le JS est utilisé, on utilisera la librairie jQuery qui vous permettra d'écrire du JS très simplement!
 
@@ -161,4 +162,4 @@ Quelques liens utiles :
 </details>
 
 
-[Prêt pour la mise en ligne ?  !](https://github.com/Coding-Days/coding-days/blob/master/challenge_5.md "Challenge 5")
+[Prêt pour la mise en ligne ?  !](https://github.com/Coding-Days/coding-days/blob/master/challenge_4.md "Challenge 4")

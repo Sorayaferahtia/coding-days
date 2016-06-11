@@ -11,7 +11,7 @@ Essayer de dessiner votre "Mock up" sur papier, ça devrait ressembler à quelqu
 
 Liste des logiciels que nous allons utiliser.
 
-- Git - Outil de collaboration et de versionning
+- Git - Outil de collaboration et de versionning [Téléchargez le ici](https://sourceforge.net/projects/git-osx-installer/files/git-2.8.1-intel-universal-mavericks.dmg/download?use_mirror=autoselect "Téléchargez Git ici")
 - Github - Représentation visuelle de l'outil de Git (Une interface moins brute)
 - Ruby - Notre langage de programmation
 - Heroku (toolbelt) - Application d'hébergement sur le Cloud, pour mettre en ligne, les fichiers que nous allons créer.
@@ -29,8 +29,6 @@ Quelques vidéos à regarder avant de continuer :
 ###Utilisateurs Mac & Windows
 1- Créer un compte sur [Github](https://github.com/join "Github")                                            
 2- Créer un compte sur [Heroku](https://signup.heroku.com/ "Heroku")
-
-
 
 ####Sur MAC                                                
 1 - Suivez les étapes d'installation sur: [Prepare to code](http://www.preparetocode.io/mac/essential/ "prepare to code") (Un site preparé avec &#9829;)                                       

@@ -54,4 +54,3 @@ Si vous avez déjà fini avec le [Pre course](https://github.com/Coding-Days/cod
 - [Challenge 2](https://github.com/Coding-Days/coding-days/blob/master/challenge_2.md "Challenge 2")
 - [Challenge 3](https://github.com/Coding-Days/coding-days/blob/master/challenge_3.md "Challenge 3")
 - [Challenge 4](https://github.com/Coding-Days/coding-days/blob/master/challenge_4.md "Challenge 4")
-- [Challenge 5](https://github.com/Coding-Days/coding-days/blob/master/challenge_5.md "Challenge 5")
