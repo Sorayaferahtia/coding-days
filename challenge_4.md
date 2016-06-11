@@ -46,9 +46,9 @@ Sauf que... Il faudra au préalable, installer bundler :)
 et après
 > $ bundle install
 
-**Tout est bon, on va pouvoir s'occuper des fichiers !**
+**Tout est bon, on va pouvoir s'occuper des fichiers sur lesquels on a travaillé ce week-end!**
 
-4. Nous nous intéresserons seulement à deux fichiers:                                                 
+4. Nous nous intéresserons seulement à ces deux fichiers:                                                 
   - Index.erb
   - Style.css
 
