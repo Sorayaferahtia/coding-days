@@ -98,8 +98,8 @@ heroku open
 2. Ouvrez le fichier index.rb dans /controllers et faite une requête GET pour la nouvelle page que vous venez de créer.
 
 ```ruby
-get '/ma-seconde-page' do
-  erb :ma-seconde-page
+get '/ma-seconde-page.erb' do
+  erb :masecondepage
 end
 ```
 
