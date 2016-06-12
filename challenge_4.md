@@ -37,7 +37,7 @@ Attention, lorsque vous cloner le projet, il va créer un repo avec son nom dire
 > atom . dit à votre IDE (ici atom), d'ouvrir tous les fichiers enfants de là où vous êtes.
 
 2. Votre terminal devrez vous indiquer d'installer la version 2.2.1 de ruby, écrivez donc ceci:
-> $ rvm install ruby-2.1.1
+> $ rvm install ruby-2.2.1
 
 3. Maintenant, votre application web a besoin de certaines dépendances pour fonctionner. Pour toutes les installer d'un coup, vous pouvez effectuer une seule commande: $ bundle install
 Sauf que... Il faudra au préalable, installer bundler :)
@@ -98,8 +98,8 @@ heroku open
 2. Ouvrez le fichier index.rb dans /controllers et faite une requête GET pour la nouvelle page que vous venez de créer.
 
 ```ruby
-get '/my-second-page' do
-  erb :my-second-page
+get '/ma-seconde-page' do
+  erb :ma-seconde-page
 end
 ```
 
