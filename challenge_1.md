@@ -44,7 +44,7 @@ Indentez votre code
 N'oubliez pas les attributs pour les liens, les images, etc.
 
 
-Vous ne vous souvenez pas de toutes les balises ? Ne vous inquiétez pas, on y a pensé ! [Prenez une pilule de rappel :pill:](https://github.com/makersacademy/taster2.0/blob/master/assets/pills/html.md "Taster v2"), Gulp
+Vous ne vous souvenez pas de toutes les balises ? Ne vous inquiétez pas, on y a pensé ! [Prenez une pilule de rappel :pill:](https://github.com/Coding-Days/coding-days/blob/master/assets/pills/html.md "Taster v2"), Gulp
 
 Hmm... Ce n'est pas très sexy n’est-ce pas ?
 
