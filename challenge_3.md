@@ -1,4 +1,4 @@
-Challenge 4 - Be responsive !
+Challenge 3 - Be responsive !
 ================
 
 Ok, donc maintenant vous avez une page web, stylisé, il ne reste plus qu'à la rendre jolie sur tous les supports.
