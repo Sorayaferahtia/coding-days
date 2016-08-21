@@ -11,14 +11,13 @@ Nous allons donc "Forker" le projet pour que vous puissiez le modifier à votre 
 [GitHub project page](https://github.com/Coding-Days/sinatra-app "Sinatra app")
 
 2. Cliquez sur "Fork"                                                 
-![fork](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/CSS%20Challenge/fork.png)
+![1screenfork](https://github.com/Coding-Days/coding-days/blob/master/assets/images/Challenge%204/1screenfork.jpg)
 
-3. Attendez pendant le transfert                                                
-![waiting process](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/CSS%20Challenge/wait.png)
+3. Sur cet écran, le transfert est terminé :                                              
+![2screenfork](https://github.com/Coding-Days/coding-days/blob/master/assets/images/Challenge%204/2screenfork.jpg)
 
 4. Vous pouvez maintenant le voir sur votre compte perso !                                                 
-![forked repo](https://raw.githubusercontent.com/makersacademy/taster2.0/master/assets/images/CSS%20Challenge/forked.jpg)
-
+![3screenfork](https://github.com/Coding-Days/coding-days/blob/master/assets/images/Challenge%204/3screenfork.jpg)
 Le projet est donc désormais sur votre compte Github, mais pas encore sur votre ordinateur ! Il va falloir cloner le projet pour ça !
 
 1.
