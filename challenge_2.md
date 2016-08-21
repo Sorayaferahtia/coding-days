@@ -1,6 +1,7 @@
 Challenge 2 - Make it pretty !
 ================
 
+
 ### Section 1 : Faire le pont ! (20 min)
 
 Comme nous l'avons vu pendant le cours, nous avons besoin de lier notre page HTML à notre page CSS.
