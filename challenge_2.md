@@ -21,7 +21,6 @@ body {
 
 > Pour les plus geek, ouvrez l'inspecteur d'élément, allez sur l'onglet réseau, recharger la page, et vérifiez que le fichier style.css charge correctement.
 
-
 ### Section 2 : Créer les blocs ! (1h30)
 
 > Lorsque vous écrivez vos "class" et "Id", n'écrivez pas:
